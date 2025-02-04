@@ -1,1 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on ZenithDrive Blog</title><link>https://zenithdrive.github.io/myblog/posts/</link><description>Recent content in Posts on ZenithDrive Blog</description><generator>Hugo</generator><language>ja-ja</language><lastBuildDate>Tue, 04 Feb 2025 11:00:37 +0900</lastBuildDate><atom:link href="https://zenithdrive.github.io/myblog/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>My Second Post</title><link>https://zenithdrive.github.io/myblog/posts/my-second-post/</link><pubDate>Tue, 04 Feb 2025 11:00:37 +0900</pubDate><guid>https://zenithdrive.github.io/myblog/posts/my-second-post/</guid><description>&lt;p>こんにちは。日本語は出力できるかな？&lt;/p></description></item><item><title>Test</title><link>https://zenithdrive.github.io/myblog/posts/test/</link><pubDate>Tue, 04 Feb 2025 08:05:56 +0900</pubDate><guid>https://zenithdrive.github.io/myblog/posts/test/</guid><description>&lt;p>Hello, this is my first hugo post!&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on ZenithDrive Blog</title>
+    <link>https://zenithdrive.github.io/myblog/posts/</link>
+    <description>Recent content in Posts on ZenithDrive Blog</description>
+    <generator>Hugo</generator>
+    <language>ja-ja</language>
+    <lastBuildDate>Tue, 04 Feb 2025 11:00:37 +0900</lastBuildDate>
+    <atom:link href="https://zenithdrive.github.io/myblog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My Second Post</title>
+      <link>https://zenithdrive.github.io/myblog/posts/my-second-post/</link>
+      <pubDate>Tue, 04 Feb 2025 11:00:37 +0900</pubDate>
+      <guid>https://zenithdrive.github.io/myblog/posts/my-second-post/</guid>
+      <description>&lt;p&gt;こんにちは。日本語は出力できるかな？&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Test</title>
+      <link>https://zenithdrive.github.io/myblog/posts/test/</link>
+      <pubDate>Tue, 04 Feb 2025 08:05:56 +0900</pubDate>
+      <guid>https://zenithdrive.github.io/myblog/posts/test/</guid>
+      <description>&lt;p&gt;Hello, this is my first hugo post!&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

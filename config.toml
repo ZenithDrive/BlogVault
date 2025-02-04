@@ -3,7 +3,7 @@ languageCode = 'ja-ja'
 title = 'ZenithDrive Blog'
 theme = 'ananke'
 publishDir = 'docs'
-relativeURLs = false
+relativeURLs = true
 canonifyURLs =true
 
 [params]
