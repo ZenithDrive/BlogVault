@@ -1,14 +1,7 @@
 baseURL = 'https://zenithdrive.github.io/myblog/'
 languageCode = 'ja-ja'
 title = 'ZenithDrive Blog'
-theme = 'ananke'
+theme = 'hugo-clarity'
 publishDir = 'docs'
 relativeURLs = true
 canonifyURLs =true
-
-[params]
-   ShowReadingTime = true
-   ShowShareButtons = true
-   ShowToc = true
-   TocOpen = false
-   defaultTheme = "auto"

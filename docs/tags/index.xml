@@ -4,8 +4,7 @@
     <title>Tags on ZenithDrive Blog</title>
     <link>https://zenithdrive.github.io/myblog/tags/</link>
     <description>Recent content in Tags on ZenithDrive Blog</description>
-    <generator>Hugo</generator>
-    <language>ja-ja</language>
-    <atom:link href="https://zenithdrive.github.io/myblog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-ja</language><atom:link href="https://zenithdrive.github.io/myblog/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
