@@ -1,9 +1,9 @@
 baseURL = 'https://zenithdrive.github.io/myblog/'
 languageCode = 'ja-ja'
 title = 'ZenithDrive Blog'
-theme = 'PaperMod'
+theme = 'ananke'
 publishDir = 'docs'
-relativeURLs = true
+relativeURLs = false
 canonifyURLs =true
 
 [params]
