@@ -1,7 +1,8 @@
-baseURL = 'http://localhost:1313/'
+baseURL = 'https://zenithdrive.github.io/myblog'
 languageCode = 'ja-ja'
 title = 'ZenithDrive Blog'
 theme = 'PaperMod'
+publishDir = 'docs'
 
 [params]
    ShowReadingTime = true
@@ -9,4 +10,3 @@ theme = 'PaperMod'
    ShowToc = true
    TocOpen = false
    defaultTheme = "auto"
-   publisherDir = "docs"
