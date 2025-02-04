@@ -4,6 +4,7 @@ title = 'ZenithDrive Blog'
 theme = 'PaperMod'
 publishDir = 'docs'
 relativeURLs = true
+canonifyURLs =true
 
 [params]
    ShowReadingTime = true
