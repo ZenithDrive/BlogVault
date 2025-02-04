@@ -5,3 +5,9 @@ theme = 'hugo-clarity'
 publishDir = 'docs'
 relativeURLs = true
 canonifyURLs =true
+
+[params]
+	author = "ZenithDrive"
+	description = "A blog about AI, technology, and self-drivng car"
+	mainSections = ["posts"]
+	showReadingTime = true
