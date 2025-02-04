@@ -3,6 +3,7 @@ languageCode = 'ja-ja'
 title = 'ZenithDrive Blog'
 theme = 'PaperMod'
 publishDir = 'docs'
+relativeURLs = true
 
 [params]
    ShowReadingTime = true
