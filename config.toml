@@ -1,5 +1,5 @@
 baseURL = "https://blog.takuyaniioka.com"
-defaultContentLanguage = "en-us"
+defaultContentLanguage = "ja"
 title = "Takuya Niioka"
 theme = "PaperMod"
 publishDir = "public"
@@ -62,21 +62,19 @@ publishDir = "public"
   hideSummary = false
   hideTitle = true
   
-  # Home info
-  [params.homeInfoParams]
-    Title = "Takuya Niioka"
-    Content = """
-    ADAS Systems Architect with 8+ years of experience in autonomous driving development.
-
-    Writing about ADAS strategy, system architecture, and automotive technology.
-    """
-  
-  # Profile mode (alternative to home info)
+  # Profile mode
   [params.profileMode]
     enabled = true
     title = "Takuya Niioka"
-    subtitle = "ADAS Systems Architect"
+    subtitle = "ADAS Systems Architect | 8+ years in autonomous driving"
     imageUrl = "/images/profile.jpg"
+    imageWidth = 150
+    imageHeight = 150
+    imageTitle = "Takuya Niioka"
+    buttons = [
+      {name = "Posts", url = "/posts"},
+      {name = "Tags", url = "/tags"}
+    ]
   
   # Social icons
   [[params.socialIcons]]

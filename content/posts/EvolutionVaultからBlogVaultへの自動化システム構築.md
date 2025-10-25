@@ -5,7 +5,6 @@ date = "2025-10-25T10:00:00+09:00"
 draft = true
 tags = ["automation", "blog", "hugo", "cloudflare"]
 categories = ["technology"]
-lang = "ja"
 +++
 
 ## 概要

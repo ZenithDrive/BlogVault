@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on ZenithDrive Blog</title>
-    <link>http://localhost:51555/myblog/posts/</link>
-    <description>Recent content in Posts on ZenithDrive Blog</description>
+    <title>Posts on Takuya Niioka</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on Takuya Niioka</description>
     <generator>Hugo -- 0.148.0</generator>
     <language>ja</language>
     <lastBuildDate>Sat, 25 Oct 2025 10:00:00 +0900</lastBuildDate>
-    <atom:link href="http://localhost:51555/myblog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>EvolutionVaultからBlogVaultへの自動化システム構築</title>
-      <link>http://localhost:51555/myblog/posts/draft-article/</link>
+      <link>http://localhost:1313/posts/draft-article/</link>
       <pubDate>Sat, 25 Oct 2025 10:00:00 +0900</pubDate>
-      <guid>http://localhost:51555/myblog/posts/draft-article/</guid>
+      <guid>http://localhost:1313/posts/draft-article/</guid>
       <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
 &lt;p&gt;EvolutionVaultで作成した記事をBlogVaultに自動的にコピーし、GitHubにプッシュしてCloudflare Pagesで自動デプロイするシステムを構築しました。&lt;/p&gt;
 &lt;h2 id=&#34;システム構成&#34;&gt;システム構成&lt;/h2&gt;
@@ -81,18 +81,18 @@
     </item>
     <item>
       <title>短期的な目標</title>
-      <link>http://localhost:51555/myblog/posts/mythirdpost/</link>
+      <link>http://localhost:1313/posts/mythirdpost/</link>
       <pubDate>Tue, 04 Feb 2025 11:00:37 +0900</pubDate>
-      <guid>http://localhost:51555/myblog/posts/mythirdpost/</guid>
+      <guid>http://localhost:1313/posts/mythirdpost/</guid>
       <description>&lt;h1 id=&#34;今日の目標&#34;&gt;今日の目標&lt;/h1&gt;
 &lt;h2 id=&#34;明日の目標&#34;&gt;明日の目標&lt;/h2&gt;
 &lt;h3 id=&#34;明々後日の目標&#34;&gt;明々後日の目標&lt;/h3&gt;</description>
     </item>
     <item>
       <title>中長期の目標</title>
-      <link>http://localhost:51555/myblog/posts/my-second-post/</link>
+      <link>http://localhost:1313/posts/my-second-post/</link>
       <pubDate>Tue, 04 Feb 2025 11:00:37 +0900</pubDate>
-      <guid>http://localhost:51555/myblog/posts/my-second-post/</guid>
+      <guid>http://localhost:1313/posts/my-second-post/</guid>
       <description>&lt;p&gt;私は2028年までに、以下を達成することをここに誓います。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;【2028年の目標】&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -107,9 +107,9 @@
     </item>
     <item>
       <title>Test</title>
-      <link>http://localhost:51555/myblog/posts/test/</link>
+      <link>http://localhost:1313/posts/test/</link>
       <pubDate>Tue, 04 Feb 2025 08:05:56 +0900</pubDate>
-      <guid>http://localhost:51555/myblog/posts/test/</guid>
+      <guid>http://localhost:1313/posts/test/</guid>
       <description>&lt;p&gt;Hello, this is my first hugo post!&lt;/p&gt;</description>
     </item>
   </channel>
