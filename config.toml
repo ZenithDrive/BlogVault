@@ -1,13 +1,48 @@
-baseURL = 'https://zenithdrive.github.io/myblog/'
-languageCode = 'ja-ja'
-title = 'ZenithDrive Blog'
-theme = 'hugo-clarity'
-publishDir = 'public'
-relativeURLs = true
-canonifyURLs = true
+baseURL = "https://zenithdrive.github.io/myblog/"
+languageCode = "en-us"
+title = "ZenithDrive Blog"
+theme = "terminal"
+publishDir = "public"
 
 [params]
-	author = "ZenithDrive"
-	description = "A blog about AI, technology, and self-drivng car"
-	mainSections = ["posts"]
-	showReadingTime = true
+  contentTypeName = "posts"
+  themeColor = "blue"
+  showMenuItems = 3
+  showLanguageSelector = false
+  fullWidthTheme = false
+  centerTheme = true
+  autoCover = true
+  
+[params.twitter]
+  creator = ""
+  site = ""
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    title = "ZenithDrive Blog"
+    subtitle = "Exploring AI, Technology, and Autonomous Driving"
+    owner = ""
+    keywords = "AI, technology, self-driving, autonomous vehicles, blog"
+    copyright = ""
+    menuMore = "Show more"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
+    newerPosts = "Newer posts"
+    olderPosts = "Older posts"
+    missingContentMessage = "Page not found..."
+    missingBackButtonLabel = "Back to home page"
+
+    [languages.en.params.logo]
+      logoText = "ZenithDrive"
+      logoHomeLink = "/"
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about"
+      [[languages.en.menu.main]]
+        identifier = "posts"
+        name = "Posts"
+        url = "/posts"
