@@ -1,4 +1,0 @@
- M .obsidian/workspace.json
- M temp_git_status.txt
-?? public/
-?? themes/terminal/
