@@ -1,0 +1,45 @@
+name: Auto-deploy from EvolutionVault
+
+on:
+  workflow_dispatch:
+    inputs:
+      article_file:
+        description: 'Article file to deploy'
+        required: true
+        default: ''
+
+jobs:
+  deploy-article:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout BlogVault
+        uses: actions/checkout@v4
+        with:
+          repository: zenithdrive/myblog
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install dependencies
+        run: |
+          pip install pyyaml
+
+      - name: Deploy article
+        run: |
+          echo "Deploying article: ${{ github.event.inputs.article_file }}"
+          # ここで記事のデプロイ処理を実行
+          # 実際の実装は必要に応じて調整
+
+      - name: Commit and push
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          git commit -m "Auto-deploy article: ${{ github.event.inputs.article_file }}" || exit 0
+          git push
+
+
+
