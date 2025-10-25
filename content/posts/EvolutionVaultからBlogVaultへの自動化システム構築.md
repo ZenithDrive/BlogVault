@@ -1,7 +1,7 @@
 +++
 title = "EvolutionVaultからBlogVaultへの自動化システム構築"
 slug = "draft-article"
-date = "2025-10-25T10:00:00+09:00"
+date = "2025-10-25 10:00:00"
 draft = true
 tags = ["automation", "blog", "hugo", "cloudflare"]
 categories = ["technology"]
