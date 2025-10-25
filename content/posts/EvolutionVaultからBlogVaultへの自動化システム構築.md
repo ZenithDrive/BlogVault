@@ -1,12 +1,12 @@
 +++
 title = "EvolutionVaultからBlogVaultへの自動化システム構築"
-date = "2025-01-20T10:00:00+09:00"
+slug = "draft-article"
+date = "2025-10-25T10:00:00+09:00"
 draft = true
 tags = ["automation", "blog", "hugo", "cloudflare"]
 categories = ["technology"]
+lang = "ja"
 +++
-
-# EvolutionVaultからBlogVaultへの自動化システム構築
 
 ## 概要
 

@@ -1,408 +1,319 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja" dir="auto">
+
 <head>
-	<meta name="generator" content="Hugo 0.143.0"><script src="/myblog/livereload.js?mindelay=10&amp;v=2&amp;port=54506&amp;path=myblog/livereload" data-no-instant defer></script>
-  
-    <title>ZenithDrive Blog</title>
-  
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="" />
-<meta name="keywords" content="" />
+	<meta name="generator" content="Hugo 0.148.0"><script src="/myblog/livereload.js?mindelay=10&amp;v=2&amp;port=51555&amp;path=myblog/livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>ZenithDrive Blog</title>
 
-  <meta name="robots" content="noodp" />
+<meta name="description" content="AI、テクノロジー、自動運転について探求するブログ">
+<meta name="author" content="ZenithDrive">
+<link rel="canonical" href="http://localhost:51555/myblog/">
+<link crossorigin="anonymous" href="/myblog/assets/css/stylesheet.2d0325420c619a782224fbdbc50e6417d66f71c30e5607ad7ddb5b0ecce5d6cc.css" integrity="sha256-LQMlQgxhmngiJPvbxQ5kF9ZvccMOVgetfdtbDszl1sw=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:51555/myblog/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:51555/myblog/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:51555/myblog/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:51555/myblog/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:51555/myblog/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="http://localhost:51555/myblog/index.xml" title="rss">
+<link rel="alternate" type="application/json" href="http://localhost:51555/myblog/index.json" title="json">
+<link rel="alternate" hreflang="ja" href="http://localhost:51555/myblog/">
+<link rel="alternate" hreflang="en" href="http://localhost:51555/myblog/en/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
 
-<link rel="canonical" href="http://localhost:54506/myblog/" />
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
 
+            .list {
+                background: var(--theme);
+            }
 
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
 
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
 
+    </style>
+</noscript><meta property="og:url" content="http://localhost:51555/myblog/">
+  <meta property="og:site_name" content="ZenithDrive Blog">
+  <meta property="og:title" content="ZenithDrive Blog">
+  <meta property="og:description" content="AI、テクノロジー、自動運転について探求するブログ">
+  <meta property="og:locale" content="ja">
+  <meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="ZenithDrive Blog">
+<meta name="twitter:description" content="AI、テクノロジー、自動運転について探求するブログ">
 
-  
-  <link rel="stylesheet" href="http://localhost:54506/myblog/css/buttons.min.86f6b4c106b6c6eb690ae5203d36b442c1f66f718ff4e8164fa86cf6c61ad641.css">
-
-  
-  <link rel="stylesheet" href="http://localhost:54506/myblog/css/code.min.d529ea4b2fb8d34328d7d31afc5466d5f7bc2f0bc9abdd98b69385335d7baee4.css">
-
-  
-  <link rel="stylesheet" href="http://localhost:54506/myblog/css/fonts.min.5bb7ed13e1d00d8ff39ea84af26737007eb5051b157b86fc24487c94f3dc8bbe.css">
-
-  
-  <link rel="stylesheet" href="http://localhost:54506/myblog/css/footer.min.eb8dfc2c6a7eafa36cd3ba92d63e69e849e2200e0002a228d137f236b09ecd75.css">
-
-  
-  <link rel="stylesheet" href="http://localhost:54506/myblog/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css">
-
-  
-  <link rel="stylesheet" href="http://localhost:54506/myblog/css/header.min.75c7eb0e2872d95ff48109c6647d0223a38db52e2561dd87966eb5fc7c6bdac6.css">
-
-  
-  <link rel="stylesheet" href="http://localhost:54506/myblog/css/main.min.36833afd348409fc6c3d09d0897c5833d9d5bf1ff31f5e60ea3ee42ce2b1268c.css">
-
-  
-  <link rel="stylesheet" href="http://localhost:54506/myblog/css/menu.min.3c17467ebeb3d38663dce68f71f519901124fa5cbb4519b2fb0667a21e9aca39.css">
-
-  
-  <link rel="stylesheet" href="http://localhost:54506/myblog/css/pagination.min.bbb986dbce00a5ce5aca0504b7925fc1c581992a4bf57f163e5d69cc1db7d836.css">
-
-  
-  <link rel="stylesheet" href="http://localhost:54506/myblog/css/post.min.e6dddd258e64c83e05cec0cd49c05216742d42fc8ecbfbe6b67083412b609bd3.css">
-
-  
-  <link rel="stylesheet" href="http://localhost:54506/myblog/css/syntax.min.a0773cce9310cb6d8ed23e50f005448facf29a53001b57e038828daa466b25c0.css">
-
-  
-  <link rel="stylesheet" href="http://localhost:54506/myblog/css/terminal.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css">
-
-  
-  <link rel="stylesheet" href="http://localhost:54506/myblog/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css">
-
-
-
-
-
-
-
-<link rel="shortcut icon" href="http://localhost:54506/myblog/favicon.png">
-<link rel="apple-touch-icon" href="http://localhost:54506/myblog/apple-touch-icon.png">
-
-
-<meta name="twitter:card" content="summary" />
-
-  
-    <meta name="twitter:site" content="" />
-  
-    <meta name="twitter:creator" content="" />
-
-
-
-<meta property="og:locale" content="en" />
-<meta property="og:type" content="website" />
-<meta property="og:title" content="ZenithDrive Blog">
-<meta property="og:description" content="" />
-<meta property="og:url" content="http://localhost:54506/myblog/" />
-<meta property="og:site_name" content="ZenithDrive Blog" />
-
-  <meta property="og:image" content="http://localhost:54506/myblog/og-image.png">
-
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="627">
-
-
-
-
-
-  <link href="/myblog/index.xml" rel="alternate" type="application/rss+xml" title="ZenithDrive Blog" />
-
-
-
-
-
-
-
-
-
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "ZenithDrive Blog",
+  "url": "http://localhost:51555/myblog/",
+  "description": "AI、テクノロジー、自動運転について探求するブログ",
+  "logo": "http://localhost:51555/myblog/favicon.ico",
+  "sameAs": [
+      "https://www.linkedin.com/in/takuya-niioka/", "https://medium.com/@tniioka"
+  ]
+}
+</script>
 </head>
-<body>
 
+<body class="list" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
 
-<div class="container center">
+</script>
 
-  <header class="header">
-  <div class="header__inner">
-    <div class="header__logo">
-      <a href="/">
-  <div class="logo">
-    ZenithDrive
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:51555/myblog/" accesskey="h" title="ZenithDrive Blog (Alt + H)">ZenithDrive Blog</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+                    <ul class="lang-switch"><li>|</li>
+                        <li>
+                            <a href="http://localhost:51555/myblog/en/" title="English"
+                                aria-label="English">En</a>
+                        </li>
+                    </ul>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:51555/myblog/posts/" title="投稿">
+                    <span>投稿</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:51555/myblog/tags/" title="タグ">
+                    <span>タグ</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:51555/myblog/categories/" title="カテゴリー">
+                    <span>カテゴリー</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main"> 
+<article class="first-entry home-info">
+    <header class="entry-header">
+        <h1>Welcome to ZenithDrive Blog</h1>
+    </header>
+    <div class="entry-content">
+        Exploring the future of AI, technology, and autonomous vehicles
+    </div>
+    <footer class="entry-footer">
+        <div class="social-icons" >
+    <a href="https://www.linkedin.com/in/takuya-niioka/" target="_blank" rel="noopener noreferrer me"
+        title="Linkedin">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+    <rect x="2" y="9" width="4" height="12"></rect>
+    <circle cx="4" cy="4" r="2"></circle>
+</svg>
+    </a>
+    <a href="https://medium.com/@tniioka" target="_blank" rel="noopener noreferrer me"
+        title="Medium">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 76.000000 76.000000" fill="currentColor" stroke-width="2"
+    preserveAspectRatio="xMidYMid meet">
+    <g transform="translate(0.000000,76.000000) scale(0.100000,-0.100000)">
+        <path
+            d="M0 380 l0 -380 380 0 380 0 0 380 0 380 -380 0 -380 0 0 -380z m334 85 c30 -63 57 -115 59 -115 2 0 16 30 31 68 15 37 37 88 49 115 l20 47 76 0 76 -1 -27 -20 -28 -21 0 -151 c0 -150 0 -151 27 -179 l27 -28 -109 0 -109 0 27 28 c26 27 27 32 26 143 0 131 3 134 -71 -58 -24 -62 -48 -113 -53 -113 -6 0 -17 16 -24 35 -7 19 -36 83 -64 142 l-52 108 -3 -98 c-3 -97 -2 -99 28 -133 16 -19 30 -39 30 -44 0 -6 -31 -10 -70 -10 -45 0 -70 4 -70 11 0 6 14 27 30 46 30 33 30 35 30 151 0 116 0 118 -31 155 l-30 37 75 0 76 0 54 -115z" />
+    </g>
+</svg>
+    </a>
+</div>
+
+    </footer>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">EvolutionVaultからBlogVaultへの自動化システム構築
+      <span class="entry-hint" title="Draft">
+        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
+          <path
+            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+        </svg>
+      </span>
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>概要 EvolutionVaultで作成した記事をBlogVaultに自動的にコピーし、GitHubにプッシュしてCloudflare Pagesで自動デプロイするシステムを構築しました。
+システム構成 1. 記事作成環境 EvolutionVault: 記事の作成・管理 形式: Markdown with YAML frontmatter 2. 自動化スクリプト Pythonスクリプト: 記事の変換・コピー・Git操作 バッチファイル: Windows環境での実行 設定ファイル: 各種設定の管理 3. デプロイ環境 BlogVault: Hugoサイト GitHub: バージョン管理・CI/CD Cloudflare Pages: 自動デプロイ 処理フロー 記事作成: EvolutionVaultで記事を作成 形式変換: Hugo形式に変換 コピー: BlogVaultにコピー Git操作: ステージング・コミット・プッシュ 自動デプロイ: Cloudflare Pagesでサイト更新 使用方法 基本的な使用方法 # バッチファイルを実行 blog_automation.bat # またはPythonスクリプトを直接実行 python blog_automation.py 特定の記事を指定 python blog_automation.py &#34;記事ファイル名.md&#34; 技術的な詳細 記事形式の変換 YAML frontmatterの解析 Hugo形式への変換 メタデータの保持 Git操作 自動的なステージング コミットメッセージの生成 リモートリポジトリへのプッシュ エラーハンドリング ファイル存在確認 Git操作のエラー処理 詳細なエラーメッセージ 今後の改善点 UI改善: より使いやすいインターフェース バッチ処理: 複数記事の一括処理 テンプレート: 記事テンプレートの自動生成 通知: デプロイ完了の通知機能 まとめ この自動化システムにより、記事の作成から公開までを効率的に行うことができるようになりました。手動での作業を大幅に削減し、より多くの時間をコンテンツ作成に集中できます。
+...</p>
   </div>
+  <footer class="entry-footer"><span title='2025-10-25 10:00:00 +0900 JST'>2025年10月25日</span>&nbsp;·&nbsp;<span>ZenithDrive</span></footer>
+  <a class="entry-link" aria-label="post link to EvolutionVaultからBlogVaultへの自動化システム構築" href="http://localhost:51555/myblog/posts/draft-article/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">短期的な目標
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>今日の目標 明日の目標 明々後日の目標</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-02-04 11:00:37 +0900 JST'>2025年2月4日</span>&nbsp;·&nbsp;<span>ZenithDrive</span></footer>
+  <a class="entry-link" aria-label="post link to 短期的な目標" href="http://localhost:51555/myblog/posts/mythirdpost/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">中長期の目標
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>私は2028年までに、以下を達成することをここに誓います。
+【2028年の目標】
+米国の技術系トップ企業(GoogleやAppleなど)に転職してエンジニアとして活躍する そのために、私は2025年の目標として以下を打ち立てます。
+【2025年の目標】
+強化学習で走行する自動運転を完成させること これを達成することは非常にチャレンジングかもしれないけれど、頑張りたいんだ。なぜなら、これまで私はぐうたらだったから。
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-02-04 11:00:37 +0900 JST'>2025年2月4日</span>&nbsp;·&nbsp;<span>ZenithDrive</span></footer>
+  <a class="entry-link" aria-label="post link to 中長期の目標" href="http://localhost:51555/myblog/posts/my-second-post/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Test
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hello, this is my first hugo post!
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-02-04 08:05:56 +0900 JST'>2025年2月4日</span>&nbsp;·&nbsp;<span>ZenithDrive</span></footer>
+  <a class="entry-link" aria-label="post link to Test" href="http://localhost:51555/myblog/posts/test/"></a>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="http://localhost:51555/myblog/">ZenithDrive Blog</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
 </a>
 
-    </div>
-    
-      <ul class="menu menu--mobile">
-  <li class="menu__trigger">Menu&nbsp;▾</li>
-  <li>
-    <ul class="menu__dropdown">
-      
-        
-          <li><a href="/myblog/about">About</a></li>
-        
-      
-        
-          <li><a href="/myblog/posts">Posts</a></li>
-        
-      
-      
-    </ul>
-  </li>
-</ul>
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
 
-    
-    
-  </div>
-  
-    <nav class="navigation-menu">
-  <ul class="navigation-menu__inner menu--desktop">
-    
-      
-        
-          <li><a href="/myblog/about" >About</a></li>
-        
-      
-        
-          <li><a href="/myblog/posts" >Posts</a></li>
-        
-      
-      
-    
-  </ul>
-</nav>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
 
-  
-</header>
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
 
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
 
-  <div class="content">
-    
-  
-  <div class="posts">
-    
-    
-
-    
-    
-      
-    
-    
-
-    
-      <article class="post on-list">
-        <h2 class="post-title">
-          <a href="http://localhost:54506/myblog/posts/my-second-post/">中長期の目標</a>
-        </h2>
-
-        <div class="post-meta"><time class="post-date">2025-02-04</time></div>
-
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <p>私は2028年までに、以下を達成することをここに誓います。</p>
-<p><strong>【2028年の目標】</strong></p>
-<ul>
-<li>米国の技術系トップ企業(GoogleやAppleなど)に転職してエンジニアとして活躍する</li>
-</ul>
-<p>そのために、私は2025年の目標として以下を打ち立てます。</p>
-<p><strong>【2025年の目標】</strong></p>
-<ul>
-<li>強化学習で走行する自動運転を完成させること</li>
-</ul>
-<p>これを達成することは非常にチャレンジングかもしれないけれど、頑張りたいんだ。なぜなら、これまで私はぐうたらだったから。</p>
-          
-        </div>
-
-        
-          <div>
-            <a class="read-more button inline" href="/myblog/posts/my-second-post/">[]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h2 class="post-title">
-          <a href="http://localhost:54506/myblog/posts/mythirdpost/">短期的な目標</a>
-        </h2>
-
-        <div class="post-meta"><time class="post-date">2025-02-04</time></div>
-
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <h1 id="今日の目標">今日の目標</h1>
-<h2 id="明日の目標">明日の目標</h2>
-<h3 id="明々後日の目標">明々後日の目標</h3>
-          
-        </div>
-
-        
-          <div>
-            <a class="read-more button inline" href="/myblog/posts/mythirdpost/">[]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h2 class="post-title">
-          <a href="http://localhost:54506/myblog/posts/test/">Test</a>
-        </h2>
-
-        <div class="post-meta"><time class="post-date">2025-02-04</time></div>
-
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <p>Hello, this is my first hugo post!</p>
-          
-        </div>
-
-        
-          <div>
-            <a class="read-more button inline" href="/myblog/posts/test/">[]</a>
-          </div>
-        
-      </article>
-    
-      <article class="post on-list">
-        <h2 class="post-title">
-          <a href="http://localhost:54506/myblog/posts/draft-test_article/">EvolutionVaultからBlogVaultへの自動化システム構築</a>
-        </h2>
-
-        <div class="post-meta"><time class="post-date">2025-01-20</time></div>
-
-        
-          <span class="post-tags">
-            
-            #<a href="http://localhost:54506/myblog/tags/automation/">automation</a>&nbsp;
-            
-            #<a href="http://localhost:54506/myblog/tags/blog/">blog</a>&nbsp;
-            
-            #<a href="http://localhost:54506/myblog/tags/hugo/">hugo</a>&nbsp;
-            
-            #<a href="http://localhost:54506/myblog/tags/cloudflare/">cloudflare</a>&nbsp;
-            
-          </span>
-        
-
-        
-
-
-        <div class="post-content">
-          
-            <h1 id="evolutionvaultからblogvaultへの自動化システム構築">EvolutionVaultからBlogVaultへの自動化システム構築</h1>
-<h2 id="概要">概要</h2>
-<p>EvolutionVaultで作成した記事をBlogVaultに自動的にコピーし、GitHubにプッシュしてCloudflare Pagesで自動デプロイするシステムを構築しました。</p>
-<h2 id="システム構成">システム構成</h2>
-<h3 id="1-記事作成環境">1. 記事作成環境</h3>
-<ul>
-<li><strong>EvolutionVault</strong>: 記事の作成・管理</li>
-<li><strong>形式</strong>: Markdown with YAML frontmatter</li>
-</ul>
-<h3 id="2-自動化スクリプト">2. 自動化スクリプト</h3>
-<ul>
-<li><strong>Pythonスクリプト</strong>: 記事の変換・コピー・Git操作</li>
-<li><strong>バッチファイル</strong>: Windows環境での実行</li>
-<li><strong>設定ファイル</strong>: 各種設定の管理</li>
-</ul>
-<h3 id="3-デプロイ環境">3. デプロイ環境</h3>
-<ul>
-<li><strong>BlogVault</strong>: Hugoサイト</li>
-<li><strong>GitHub</strong>: バージョン管理・CI/CD</li>
-<li><strong>Cloudflare Pages</strong>: 自動デプロイ</li>
-</ul>
-<h2 id="処理フロー">処理フロー</h2>
-<ol>
-<li><strong>記事作成</strong>: EvolutionVaultで記事を作成</li>
-<li><strong>形式変換</strong>: Hugo形式に変換</li>
-<li><strong>コピー</strong>: BlogVaultにコピー</li>
-<li><strong>Git操作</strong>: ステージング・コミット・プッシュ</li>
-<li><strong>自動デプロイ</strong>: Cloudflare Pagesでサイト更新</li>
-</ol>
-<h2 id="使用方法">使用方法</h2>
-<h3 id="基本的な使用方法">基本的な使用方法</h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e"># バッチファイルを実行</span>
-</span></span><span style="display:flex;"><span>blog_automation.bat
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># またはPythonスクリプトを直接実行</span>
-</span></span><span style="display:flex;"><span>python blog_automation.py
-</span></span></code></pre></div><h3 id="特定の記事を指定">特定の記事を指定</h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>python blog_automation.py <span style="color:#e6db74">&#34;記事ファイル名.md&#34;</span>
-</span></span></code></pre></div><h2 id="技術的な詳細">技術的な詳細</h2>
-<h3 id="記事形式の変換">記事形式の変換</h3>
-<ul>
-<li>YAML frontmatterの解析</li>
-<li>Hugo形式への変換</li>
-<li>メタデータの保持</li>
-</ul>
-<h3 id="git操作">Git操作</h3>
-<ul>
-<li>自動的なステージング</li>
-<li>コミットメッセージの生成</li>
-<li>リモートリポジトリへのプッシュ</li>
-</ul>
-<h3 id="エラーハンドリング">エラーハンドリング</h3>
-<ul>
-<li>ファイル存在確認</li>
-<li>Git操作のエラー処理</li>
-<li>詳細なエラーメッセージ</li>
-</ul>
-<h2 id="今後の改善点">今後の改善点</h2>
-<ol>
-<li><strong>UI改善</strong>: より使いやすいインターフェース</li>
-<li><strong>バッチ処理</strong>: 複数記事の一括処理</li>
-<li><strong>テンプレート</strong>: 記事テンプレートの自動生成</li>
-<li><strong>通知</strong>: デプロイ完了の通知機能</li>
-</ol>
-<h2 id="まとめ">まとめ</h2>
-<p>この自動化システムにより、記事の作成から公開までを効率的に行うことができるようになりました。手動での作業を大幅に削減し、より多くの時間をコンテンツ作成に集中できます。</p>
-          
-        </div>
-
-        
-          <div>
-            <a class="read-more button inline" href="/myblog/posts/draft-test_article/">[]</a>
-          </div>
-        
-      </article>
-    
-
-    <div class="pagination">
-  <div class="pagination__buttons">
-    
-    
-    
-  </div>
-</div>
-
-  </div>
-
-  </div>
-
-  
-    <footer class="footer">
-  <div class="footer__inner">
-    
-      <div class="copyright">
-        <span>© 2025 Powered by <a href="https://gohugo.io">Hugo</a></span>
-    
-      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
-      </div>
-  </div>
-</footer>
-
-
-
-
-
-
-<script type="text/javascript" src="/myblog/bundle.min.js"></script>
-
-
-
-
-
-  
-</div>
-
+</script>
 </body>
+
 </html>

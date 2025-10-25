@@ -1,48 +1,141 @@
-baseURL = "https://zenithdrive.github.io/myblog/"
-languageCode = "en-us"
-title = "ZenithDrive Blog"
-theme = "terminal"
+baseURL = "https://blog.takuyaniioka.com"
+defaultContentLanguage = "en-us"
+title = "Takuya Niioka"
+theme = "PaperMod"
 publishDir = "public"
 
-[params]
-  contentTypeName = "posts"
-  themeColor = "blue"
-  showMenuItems = 3
-  showLanguageSelector = false
-  fullWidthTheme = false
-  centerTheme = true
-  autoCover = true
-  
-[params.twitter]
-  creator = ""
-  site = ""
+[pagination]
+  pagerSize = 5
 
+# Language settings
 [languages]
+  [languages.ja]
+    languageCode = "ja"
+    languageName = "日本語"
+    weight = 1
+    title = "Takuya Niioka"
+    
+    [languages.ja.params]
+      description = "ADAS Systems Architect | 8+ years in autonomous driving"
+    
+    [[languages.ja.menu.main]]
+      name = "投稿"
+      url = "/posts/"
+      weight = 1
+    [[languages.ja.menu.main]]
+      name = "タグ"
+      url = "/tags/"
+      weight = 2
+    [[languages.ja.menu.main]]
+      name = "カテゴリー"
+      url = "/categories/"
+      weight = 3
+  
   [languages.en]
+    languageCode = "en-us"
     languageName = "English"
-    title = "ZenithDrive Blog"
-    subtitle = "Exploring AI, Technology, and Autonomous Driving"
-    owner = ""
-    keywords = "AI, technology, self-driving, autonomous vehicles, blog"
-    copyright = ""
-    menuMore = "Show more"
-    readMore = "Read more"
-    readOtherPosts = "Read other posts"
-    newerPosts = "Newer posts"
-    olderPosts = "Older posts"
-    missingContentMessage = "Page not found..."
-    missingBackButtonLabel = "Back to home page"
+    weight = 2
+    title = "Takuya Niioka"
+    
+    [languages.en.params]
+      description = "ADAS Systems Architect | 8+ years in autonomous driving"
+    
+    [[languages.en.menu.main]]
+      name = "Posts"
+      url = "/en/posts/"
+      weight = 1
+    [[languages.en.menu.main]]
+      name = "Tags"
+      url = "/en/tags/"
+      weight = 2
+    [[languages.en.menu.main]]
+      name = "Categories"
+      url = "/en/categories/"
+      weight = 3
 
-    [languages.en.params.logo]
-      logoText = "ZenithDrive"
-      logoHomeLink = "/"
+[params]
+  env = "production"
+  description = "ADAS Systems Architect | 8+ years in autonomous driving"
+  author = "Takuya Niioka"
+  
+  # Hide title on post pages (to avoid duplication with H1)
+  hideSummary = false
+  hideTitle = true
+  
+  # Home info
+  [params.homeInfoParams]
+    Title = "Takuya Niioka"
+    Content = """
+    ADAS Systems Architect with 8+ years of experience in autonomous driving development.
 
-    [languages.en.menu]
-      [[languages.en.menu.main]]
-        identifier = "about"
-        name = "About"
-        url = "/about"
-      [[languages.en.menu.main]]
-        identifier = "posts"
-        name = "Posts"
-        url = "/posts"
+    Writing about ADAS strategy, system architecture, and automotive technology.
+    """
+  
+  # Profile mode (alternative to home info)
+  [params.profileMode]
+    enabled = true
+    title = "Takuya Niioka"
+    subtitle = "ADAS Systems Architect"
+    imageUrl = "/images/profile.jpg"
+  
+  # Social icons
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/takuya-niioka/"
+  
+  [[params.socialIcons]]
+    name = "medium"
+    url = "https://medium.com/@tniioka"
+  
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:contact@takuyaniioka.com"
+  
+  # Features
+  showReadingTime = true
+  showShareButtons = true
+  showPostNavLinks = true
+  showBreadCrumbs = true
+  showCodeCopyButtons = true
+  showWordCount = true
+  showRssButtonInSectionTermList = true
+  
+  # Table of contents
+  ShowToc = true
+  TocOpen = false
+  
+  # Search
+  # [params.fuseOpts]
+  #   isCaseSensitive = false
+  #   shouldSort = true
+  #   location = 0
+  #   distance = 1000
+  #   threshold = 0.4
+  #   minMatchCharLength = 0
+  #   keys = ["title", "permalink", "summary", "content"]
+
+# Menu is defined in [languages.xx.menu.main] sections above
+
+# Taxonomies
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+# Output formats
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+# Markup settings
+[markup]
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineAnchors = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    style = "monokai"
+    tabWidth = 4
