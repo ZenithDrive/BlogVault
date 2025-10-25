@@ -2,9 +2,9 @@ baseURL = 'https://zenithdrive.github.io/myblog/'
 languageCode = 'ja-ja'
 title = 'ZenithDrive Blog'
 theme = 'hugo-clarity'
-publishDir = 'docs'
+publishDir = 'public'
 relativeURLs = true
-canonifyURLs =true
+canonifyURLs = true
 
 [params]
 	author = "ZenithDrive"
