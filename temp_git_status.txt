@@ -1,6 +1,4 @@
- M .obsidian/core-plugins.json
  M .obsidian/workspace.json
- M content/posts/test_article.md
  M temp_git_status.txt
-?? .github/workflows/auto-deploy.yml
-?? .github/workflows/deploy.yml
+?? public/
+?? themes/terminal/

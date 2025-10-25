@@ -11,14 +11,10 @@
             "id": "76ed05e7a195963b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/posts/test_article.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "test_article"
+              "title": "New tab"
             }
           }
         ]
@@ -168,9 +164,51 @@
   },
   "active": "76ed05e7a195963b",
   "lastOpenFiles": [
+    "public/en/js/bundle.a513e51081d8851d8cfd4aaebe384b3b751195c98106c4e4c64ab266ac5fb40b8edcc9d9d29c764c43638d368981ba8fc5c52fac08e58bff7a6f13832dd7f1bc.js",
+    "public/posts/mythirdpost/index.html",
+    "public/posts/mythirdpost",
+    "public/posts/my-second-post/index.html",
+    "public/posts/my-second-post",
+    "public/posts/test/index.html",
+    "public/posts/test",
+    "public/index.html",
+    "public/categories/page/1/index.html",
+    "public/categories/page/1",
+    "public/categories/page",
+    "public/images/sun.svg",
+    "public/images/night-moon.jpg",
+    "public/images/broken-image-error-msg.png",
+    "public/icons/order.svg",
+    "public/icons/mstile-150x150.png",
+    "public/icons/link.svg",
+    "public/icons/favicon-32x32.png",
+    "public/icons/favicon-16x16.png",
+    "public/icons/expand.svg",
+    "public/icons/copy.svg",
     "content/posts/test.md",
-    "content/posts/test_article.md",
     "content/posts/myThirdPost.md",
-    "content/posts/my-second-post.md"
+    "content/posts/my-second-post.md",
+    "content/posts/test_article.md",
+    "content/posts/draft-Out_Article_Zenn_Article_pandoc_citations.md",
+    "themes/terminal/exampleSite/content/posts/hello.md",
+    "themes/terminal/exampleSite/content/showcase.md",
+    "themes/terminal/exampleSite/content/about.md",
+    "themes/terminal/archetypes/posts.md",
+    "themes/terminal/README.md",
+    "themes/terminal/LICENSE.md",
+    "themes/terminal/COMMUNITY-FEATURES.md",
+    "content/posts/_old/test_article.md",
+    "content/posts/_old/test.md",
+    "content/posts/_old/myThirdPost.md",
+    "content/posts/_old/my-second-post.md",
+    "themes/hugo-clarity/archetypes/post.md",
+    "themes/hugo-clarity/exampleSite/content/post/bundle/index.md",
+    "themes/hugo-clarity/exampleSite/content/post/_index.md",
+    "themes/hugo-clarity/exampleSite/content/post/rich-content.md",
+    "themes/hugo-clarity/exampleSite/content/post/placeholder-text.md",
+    "themes/hugo-clarity/exampleSite/content/post/notices.md",
+    "themes/hugo-clarity/exampleSite/content/post/markdown-syntax.pt.md",
+    "themes/hugo-clarity/exampleSite/content/post/math-typesetting.md",
+    "themes/hugo-clarity/exampleSite/content/post/markdown-syntax.md"
   ]
 }

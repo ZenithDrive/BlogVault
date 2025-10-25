@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on ZenithDrive Blog</title>
+    <link>http://localhost:1313/myblog/posts/</link>
+    <description>Recent content in Posts on ZenithDrive Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-ja</language>
+    <lastBuildDate>Tue, 04 Feb 2025 11:00:37 +0900</lastBuildDate><atom:link href="http://localhost:1313/myblog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>中長期の目標</title>
+      <link>http://localhost:1313/myblog/posts/my-second-post/</link>
+      <pubDate>Tue, 04 Feb 2025 11:00:37 +0900</pubDate>
+      
+      <guid>http://localhost:1313/myblog/posts/my-second-post/</guid>
+      <description>
+        
+          
+            &lt;p&gt;私は2028年までに、以下を達成することをここに誓います。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;【2028年の目標】&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;米国の技術系トップ企業(GoogleやAppleなど)に転職してエンジニアとして活躍する&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;そのために、私は2025年の目標として以下を打ち立てます。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;【2025年の目標】&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;強化学習で走行する自動運転を完成させること&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;これを達成することは非常にチャレンジングかもしれないけれど、頑張りたいんだ。なぜなら、これまで私はぐうたらだったから。&lt;/p&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>短期的な目標</title>
+      <link>http://localhost:1313/myblog/posts/mythirdpost/</link>
+      <pubDate>Tue, 04 Feb 2025 11:00:37 +0900</pubDate>
+      
+      <guid>http://localhost:1313/myblog/posts/mythirdpost/</guid>
+      <description>
+        
+          
+            &lt;h1 id=&#34;今日の目標&#34;&gt;今日の目標&lt;/h1&gt;
+&lt;h2 id=&#34;明日の目標&#34;&gt;明日の目標&lt;/h2&gt;
+&lt;h3 id=&#34;明々後日の目標&#34;&gt;明々後日の目標&lt;/h3&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+    <item>
+      <title>Test</title>
+      <link>http://localhost:1313/myblog/posts/test/</link>
+      <pubDate>Tue, 04 Feb 2025 08:05:56 +0900</pubDate>
+      
+      <guid>http://localhost:1313/myblog/posts/test/</guid>
+      <description>
+        
+          
+            &lt;p&gt;Hello, this is my first hugo post!&lt;/p&gt;
+          
+          
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>
