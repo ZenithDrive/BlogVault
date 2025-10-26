@@ -39,7 +39,6 @@ EvolutionVaultで作成した記事をBlogVaultに自動的にコピーし、Git
 
 ### 基本的な使用方法
 ```bash
-# バッチファイルを実行
 blog_automation.bat
 
 # またはPythonスクリプトを直接実行
