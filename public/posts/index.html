@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ja" dir="auto">
+<html lang="en" dir="auto">
 
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -19,7 +19,8 @@
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
 <link rel="alternate" type="application/rss+xml" href="http://localhost:1313/posts/index.xml" title="rss">
-<link rel="alternate" hreflang="ja" href="http://localhost:1313/posts/">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/">
+<link rel="alternate" hreflang="ja" href="http://localhost:1313/ja/posts/">
 <noscript>
     <style>
         #theme-toggle,
@@ -60,7 +61,7 @@
   <meta property="og:site_name" content="Takuya Niioka">
   <meta property="og:title" content="Posts">
   <meta property="og:description" content="ADAS Systems Architect | 8&#43; years in autonomous driving">
-  <meta property="og:locale" content="ja">
+  <meta property="og:locale" content="en-us">
   <meta property="og:type" content="website">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Posts">
@@ -122,26 +123,26 @@
                 </button>
                     <ul class="lang-switch"><li>|</li>
                         <li>
-                            <a href="http://localhost:1313/en/" title="English"
-                                aria-label="English">En</a>
+                            <a href="http://localhost:1313/ja/" title="日本語"
+                                aria-label="日本語">Ja</a>
                         </li>
                     </ul>
             </div>
         </div>
         <ul id="menu">
             <li>
-                <a href="http://localhost:1313/posts/" title="投稿">
-                    <span class="active">投稿</span>
+                <a href="http://localhost:1313/posts/" title="Posts">
+                    <span class="active">Posts</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/tags/" title="タグ">
-                    <span>タグ</span>
+                <a href="http://localhost:1313/tags/" title="Tags">
+                    <span>Tags</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/categories/" title="カテゴリー">
-                    <span>カテゴリー</span>
+                <a href="http://localhost:1313/categories/" title="Categories">
+                    <span>Categories</span>
                 </a>
             </li>
         </ul>
@@ -156,64 +157,16 @@
 
 <article class="post-entry"> 
   <header class="entry-header">
-    <h2 class="entry-hint-parent">EvolutionVaultからBlogVaultへの自動化システム構築
-      <span class="entry-hint" title="Draft">
-        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
-          <path
-            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
-        </svg>
-      </span>
+    <h2 class="entry-hint-parent">Building an Automated Pipeline: From EvolutionVault to BlogVault
     </h2>
   </header>
   <div class="entry-content">
-    <p>概要 EvolutionVaultで作成した記事をBlogVaultに自動的にコピーし、GitHubにプッシュしてCloudflare Pagesで自動デプロイするシステムを構築しました。
-システム構成 1. 記事作成環境 EvolutionVault: 記事の作成・管理 形式: Markdown with YAML frontmatter 2. 自動化スクリプト Pythonスクリプト: 記事の変換・コピー・Git操作 バッチファイル: Windows環境での実行 設定ファイル: 各種設定の管理 3. デプロイ環境 BlogVault: Hugoサイト GitHub: バージョン管理・CI/CD Cloudflare Pages: 自動デプロイ 処理フロー 記事作成: EvolutionVaultで記事を作成 形式変換: Hugo形式に変換 コピー: BlogVaultにコピー Git操作: ステージング・コミット・プッシュ 自動デプロイ: Cloudflare Pagesでサイト更新 使用方法 基本的な使用方法 # バッチファイルを実行 blog_automation.bat # またはPythonスクリプトを直接実行 python blog_automation.py 特定の記事を指定 python blog_automation.py &#34;記事ファイル名.md&#34; 技術的な詳細 記事形式の変換 YAML frontmatterの解析 Hugo形式への変換 メタデータの保持 Git操作 自動的なステージング コミットメッセージの生成 リモートリポジトリへのプッシュ エラーハンドリング ファイル存在確認 Git操作のエラー処理 詳細なエラーメッセージ 今後の改善点 UI改善: より使いやすいインターフェース バッチ処理: 複数記事の一括処理 テンプレート: 記事テンプレートの自動生成 通知: デプロイ完了の通知機能 まとめ この自動化システムにより、記事の作成から公開までを効率的に行うことができるようになりました。手動での作業を大幅に削減し、より多くの時間をコンテンツ作成に集中できます。
+    <p>Overview I built a system that automatically copies articles created in EvolutionVault to BlogVault, pushes them to GitHub, and automatically deploys them using Cloudflare Pages.
+System Architecture 1. Article Creation Environment EvolutionVault: Article creation and management Format: Markdown with YAML frontmatter 2. Automation Scripts Python script: Article conversion, copying, and Git operations Batch file: Execution in Windows environment Configuration file: Management of various settings 3. Deployment Environment BlogVault: Hugo site GitHub: Version control and CI/CD Cloudflare Pages: Automatic deployment Process Flow Article Creation: Create article in EvolutionVault Format Conversion: Convert to Hugo format Copy: Copy to BlogVault Git Operations: Stage, commit, and push Auto Deploy: Update site on Cloudflare Pages Usage Basic Usage # Execute batch file blog_automation.bat # Or directly run Python script python blog_automation.py Specify Particular Article python blog_automation.py &#34;article_filename.md&#34; Technical Details Article Format Conversion YAML frontmatter parsing Conversion to Hugo format Metadata preservation Git Operations Automatic staging Commit message generation Push to remote repository Error Handling File existence verification Git operation error handling Detailed error messages Future Improvements UI Enhancement: More user-friendly interface Batch Processing: Bulk processing of multiple articles Templates: Automatic generation of article templates Notifications: Deployment completion notification feature Summary This automation system enables efficient handling of the entire process from article creation to publication. It significantly reduces manual operations, allowing more time to focus on content creation.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2025-10-25 10:00:00 +0000 UTC'>2025年10月25日</span>&nbsp;·&nbsp;<span>Takuya Niioka</span></footer>
-  <a class="entry-link" aria-label="post link to EvolutionVaultからBlogVaultへの自動化システム構築" href="http://localhost:1313/posts/draft-article/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">短期的な目標
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>今日の目標 明日の目標 明々後日の目標</p>
-  </div>
-  <footer class="entry-footer"><span title='2025-02-04 11:00:37 +0900 JST'>2025年2月4日</span>&nbsp;·&nbsp;<span>Takuya Niioka</span></footer>
-  <a class="entry-link" aria-label="post link to 短期的な目標" href="http://localhost:1313/posts/mythirdpost/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">中長期の目標
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>私は2028年までに、以下を達成することをここに誓います。
-【2028年の目標】
-米国の技術系トップ企業(GoogleやAppleなど)に転職してエンジニアとして活躍する そのために、私は2025年の目標として以下を打ち立てます。
-【2025年の目標】
-強化学習で走行する自動運転を完成させること これを達成することは非常にチャレンジングかもしれないけれど、頑張りたいんだ。なぜなら、これまで私はぐうたらだったから。
-</p>
-  </div>
-  <footer class="entry-footer"><span title='2025-02-04 11:00:37 +0900 JST'>2025年2月4日</span>&nbsp;·&nbsp;<span>Takuya Niioka</span></footer>
-  <a class="entry-link" aria-label="post link to 中長期の目標" href="http://localhost:1313/posts/my-second-post/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Test
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Hello, this is my first hugo post!
-</p>
-  </div>
-  <footer class="entry-footer"><span title='2025-02-04 08:05:56 +0900 JST'>2025年2月4日</span>&nbsp;·&nbsp;<span>Takuya Niioka</span></footer>
-  <a class="entry-link" aria-label="post link to Test" href="http://localhost:1313/posts/test/"></a>
+  <footer class="entry-footer"><span title='2025-10-25 10:00:00 +0000 UTC'>October 25, 2025</span>&nbsp;·&nbsp;<span>Takuya Niioka</span></footer>
+  <a class="entry-link" aria-label="post link to Building an Automated Pipeline: From EvolutionVault to BlogVault" href="http://localhost:1313/posts/draft-article/"></a>
 </article>
     </main>
     

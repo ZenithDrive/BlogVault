@@ -1,5 +1,5 @@
 baseURL = "https://takuyaniioka.com"
-defaultContentLanguage = "ja"
+defaultContentLanguage = "en"
 title = "Takuya Niioka"
 theme = "PaperMod"
 publishDir = "public"
@@ -9,11 +9,34 @@ publishDir = "public"
 
 # Language settings
 [languages]
+  [languages.en]
+    languageCode = "en-us"
+    languageName = "English"
+    weight = 1
+    title = "Takuya Niioka"
+    
+    [languages.en.params]
+      description = "ADAS Systems Architect | 8+ years in autonomous driving"
+    
+    [[languages.en.menu.main]]
+      name = "Posts"
+      url = "/posts/"
+      weight = 1
+    [[languages.en.menu.main]]
+      name = "Tags"
+      url = "/tags/"
+      weight = 2
+    [[languages.en.menu.main]]
+      name = "Categories"
+      url = "/categories/"
+      weight = 3
+  
   [languages.ja]
     languageCode = "ja"
     languageName = "日本語"
-    weight = 1
+    weight = 2
     title = "Takuya Niioka"
+    contentDir = "content/ja"
     
     [languages.ja.params]
       description = "ADAS Systems Architect | 8+ years in autonomous driving"
@@ -29,28 +52,6 @@ publishDir = "public"
     [[languages.ja.menu.main]]
       name = "カテゴリー"
       url = "/categories/"
-      weight = 3
-  
-  [languages.en]
-    languageCode = "en-us"
-    languageName = "English"
-    weight = 2
-    title = "Takuya Niioka"
-    
-    [languages.en.params]
-      description = "ADAS Systems Architect | 8+ years in autonomous driving"
-    
-    [[languages.en.menu.main]]
-      name = "Posts"
-      url = "/en/posts/"
-      weight = 1
-    [[languages.en.menu.main]]
-      name = "Tags"
-      url = "/en/tags/"
-      weight = 2
-    [[languages.en.menu.main]]
-      name = "Categories"
-      url = "/en/categories/"
       weight = 3
 
 [params]
