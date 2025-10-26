@@ -7,6 +7,7 @@ tags = ["automation", "blog", "hugo", "cloudflare"]
 categories = ["technology"]
 +++
 
+# EvolutionVaultからBlogVaultへの自動化システム構築
 ## 概要
 
 EvolutionVaultで作成した記事をBlogVaultに自動的にコピーし、GitHubにプッシュしてCloudflare Pagesで自動デプロイするシステムを構築しました。
