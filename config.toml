@@ -98,6 +98,10 @@ publishDir = "public"
     url = "https://medium.com/@takuya-niioka"
   
   [[params.socialIcons]]
+    name = "dev"
+    url = "https://dev.to/takuya-niioka"
+  
+  [[params.socialIcons]]
     name = "email"
     url = "mailto:contact@takuyaniioka.com"
   
@@ -123,6 +127,20 @@ publishDir = "public"
   #   threshold = 0.4
   #   minMatchCharLength = 0
   #   keys = ["title", "permalink", "summary", "content"]
+  
+  # Comments - giscus
+  [params.giscus]
+    enable = true
+    repo = "takuya-niioka/blog-comments"
+    repoId = "R_kgDOQJsF3A"
+    category = "Announcements"
+    categoryId = "DIC_kwDOQJsF3M4CxGsu"
+    mapping = "pathname"
+    reactionsEnabled = "1"
+    emitMetadata = "0"
+    inputPosition = "bottom"
+    theme = "preferred_color_scheme"  # Auto theme based on user preference
+    lang = "en"  # Default language
 
 # Menu is defined in [languages.xx.menu.main] sections above
 

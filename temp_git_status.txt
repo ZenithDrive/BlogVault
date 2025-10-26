@@ -1,6 +1,8 @@
  M .obsidian/workspace.json
+ M assets/css/custom.css
  M config.toml
- M "content/ja/posts/EvolutionVault\343\201\213\343\202\211BlogVault\343\201\270\343\201\256\350\250\230\344\272\213\350\273\242\351\200\201\350\207\252\345\213\225\345\214\226\343\202\267\343\202\271\343\203\206\343\203\240\343\201\256\346\247\213\347\257\211\346\226\271\346\263\225.md"
- M public/index.html
- M public/index.xml
  M temp_git_status.txt
+?? GISCUS_SETUP.md
+?? layouts/_default/
+?? layouts/partials/comments.html
+?? layouts/partials/svg.html

@@ -13,3 +13,25 @@
   margin-bottom: 1.5rem;
   line-height: 1.3;
 }
+
+/* Giscus コメントセクションのスタイル */
+.comments-area {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--border);
+}
+
+/* ダークモード対応 */
+@media (prefers-color-scheme: dark) {
+  .comments-area {
+    border-top-color: var(--border);
+  }
+}
+
+/* モバイル対応 */
+@media (max-width: 768px) {
+  .comments-area {
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+  }
+}

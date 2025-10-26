@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "Building an Automated Pipeline"
             }
+          },
+          {
+            "id": "6a4c4afe298724e5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "GISCUS_SETUP.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "GISCUS_SETUP"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -166,12 +181,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "76ed05e7a195963b",
+  "active": "6a4c4afe298724e5",
   "lastOpenFiles": [
+    "layouts/partials/svg.html",
+    "layouts/_default/single.html",
+    "layouts/_default",
+    "content/posts/Building an Automated Pipeline.md",
+    "GISCUS_SETUP.md",
+    "layouts/partials/comments.html",
+    "temp_git_status.txt",
     "exampleSite/config",
     "exampleSite",
-    "content/posts/Building an Automated Pipeline.md",
-    "temp_git_status.txt",
     "content/ja/posts/EvolutionVaultからBlogVaultへの記事転送自動化システムの構築方法.md",
     "content/posts/Building an Automated Pipeline - From EvolutionVault to BlogVault.md",
     "content/ja/posts/EvolutionVaultからBlogVaultへの自動化システム構築.md",
@@ -181,10 +201,6 @@
     "public/ja/tags/about/page/1",
     "public/ja/tags/about/index.xml",
     "public/ja/tags/about/page",
-    "public/ja/tags/about/index.html",
-    "public/ja/tags/about",
-    "public/ja/posts/welcome/index.html",
-    "public/ja/posts/welcome",
     "content/posts/EvolutionVaultからBlogVaultへの自動化システム構築.md",
     "content/ja/posts/welcome.md",
     "content/en/posts/Building an Automated Pipeline - From EvolutionVault to BlogVault.md",
@@ -212,7 +228,6 @@
     "themes/ananke/CHANGELOG.md",
     "themes/hugo-clarity/README.md",
     "themes/hugo-clarity/LICENSE.md",
-    "content/posts/draft-Out_Article_Zenn_Article_pandoc_citations.md",
-    "themes/terminal/exampleSite/content/posts/hello.md"
+    "content/posts/draft-Out_Article_Zenn_Article_pandoc_citations.md"
   ]
 }
