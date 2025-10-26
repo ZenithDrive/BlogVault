@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/Building an Automated Pipeline - From EvolutionVault to BlogVault.md",
+                "file": "content/posts/Building an Automated Pipeline.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Building an Automated Pipeline - From EvolutionVault to BlogVault"
+              "title": "Building an Automated Pipeline"
             }
           }
         ]
@@ -168,11 +168,11 @@
   },
   "active": "76ed05e7a195963b",
   "lastOpenFiles": [
-    "content/posts/Building an Automated Pipeline.md",
-    "temp_git_status.txt",
     "content/ja/posts/EvolutionVaultからBlogVaultへの記事転送自動化システムの構築方法.md",
-    "content/ja/posts/EvolutionVaultからBlogVaultへの自動化システム構築.md",
+    "content/posts/Building an Automated Pipeline.md",
     "content/posts/Building an Automated Pipeline - From EvolutionVault to BlogVault.md",
+    "temp_git_status.txt",
+    "content/ja/posts/EvolutionVaultからBlogVaultへの自動化システム構築.md",
     "content/ja/posts/my-second-post.md",
     "content/ja/posts/test.md",
     "public/ja/tags/about/page/1/index.html",
