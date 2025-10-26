@@ -59,9 +59,16 @@ publishDir = "public"
   description = "ADAS Systems Architect | 8+ years in autonomous driving"
   author = "Takuya Niioka"
   
-  # Hide title on post pages (to avoid duplication with H1)
+  # Custom CSS
+  assets.css = ["css/custom.css"]
+  
+  # Google Analytics
+  googleAnalytics = "G-XXXXXXXXXX"  # Replace with your GA4 ID
+  
+  # Show summary but hide auto-generated title (H1 from markdown content will be shown)
   hideSummary = false
-  hideTitle = true
+  # Note: PaperMod theme shows frontmatter title by default
+  # We'll use CSS to hide it in favor of H1 from content
   
   # Profile mode
   [params.profileMode]
