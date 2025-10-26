@@ -53,75 +53,11 @@
       <description>Learn how to build an automated content pipeline that streamlines article publishing from EvolutionVault to BlogVault, reducing manual work and improving dep...</description>
     </item>
     <item>
-      <title>EvolutionVaultからBlogVaultへの自動化システム構築</title>
+      <title>EvolutionVaultからBlogVaultへの記事転送自動化システムの構築方法</title>
       <link>http://localhost:1313/ja/posts/draft-article/</link>
       <pubDate>Sat, 25 Oct 2025 10:00:00 +0000</pubDate>
       <guid>http://localhost:1313/ja/posts/draft-article/</guid>
-      <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
-&lt;p&gt;EvolutionVaultで作成した記事をBlogVaultに自動的にコピーし、GitHubにプッシュしてCloudflare Pagesで自動デプロイするシステムを構築しました。&lt;/p&gt;
-&lt;h2 id=&#34;システム構成&#34;&gt;システム構成&lt;/h2&gt;
-&lt;h3 id=&#34;1-記事作成環境&#34;&gt;1. 記事作成環境&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;EvolutionVault&lt;/strong&gt;: 記事の作成・管理&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;形式&lt;/strong&gt;: Markdown with YAML frontmatter&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;2-自動化スクリプト&#34;&gt;2. 自動化スクリプト&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Pythonスクリプト&lt;/strong&gt;: 記事の変換・コピー・Git操作&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;バッチファイル&lt;/strong&gt;: Windows環境での実行&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;設定ファイル&lt;/strong&gt;: 各種設定の管理&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;3-デプロイ環境&#34;&gt;3. デプロイ環境&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;BlogVault&lt;/strong&gt;: Hugoサイト&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;GitHub&lt;/strong&gt;: バージョン管理・CI/CD&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Cloudflare Pages&lt;/strong&gt;: 自動デプロイ&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;処理フロー&#34;&gt;処理フロー&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;記事作成&lt;/strong&gt;: EvolutionVaultで記事を作成&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;形式変換&lt;/strong&gt;: Hugo形式に変換&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;コピー&lt;/strong&gt;: BlogVaultにコピー&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Git操作&lt;/strong&gt;: ステージング・コミット・プッシュ&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;自動デプロイ&lt;/strong&gt;: Cloudflare Pagesでサイト更新&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;使用方法&#34;&gt;使用方法&lt;/h2&gt;
-&lt;h3 id=&#34;基本的な使用方法&#34;&gt;基本的な使用方法&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# バッチファイルを実行&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;blog_automation.bat
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# またはPythonスクリプトを直接実行&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;python blog_automation.py
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;特定の記事を指定&#34;&gt;特定の記事を指定&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;python blog_automation.py &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;記事ファイル名.md&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;技術的な詳細&#34;&gt;技術的な詳細&lt;/h2&gt;
-&lt;h3 id=&#34;記事形式の変換&#34;&gt;記事形式の変換&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;YAML frontmatterの解析&lt;/li&gt;
-&lt;li&gt;Hugo形式への変換&lt;/li&gt;
-&lt;li&gt;メタデータの保持&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;git操作&#34;&gt;Git操作&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;自動的なステージング&lt;/li&gt;
-&lt;li&gt;コミットメッセージの生成&lt;/li&gt;
-&lt;li&gt;リモートリポジトリへのプッシュ&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;エラーハンドリング&#34;&gt;エラーハンドリング&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;ファイル存在確認&lt;/li&gt;
-&lt;li&gt;Git操作のエラー処理&lt;/li&gt;
-&lt;li&gt;詳細なエラーメッセージ&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;今後の改善点&#34;&gt;今後の改善点&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;UI改善&lt;/strong&gt;: より使いやすいインターフェース&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;バッチ処理&lt;/strong&gt;: 複数記事の一括処理&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;テンプレート&lt;/strong&gt;: 記事テンプレートの自動生成&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;通知&lt;/strong&gt;: デプロイ完了の通知機能&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;まとめ&#34;&gt;まとめ&lt;/h2&gt;
-&lt;p&gt;この自動化システムにより、記事の作成から公開までを効率的に行うことができるようになりました。手動での作業を大幅に削減し、より多くの時間をコンテンツ作成に集中できます。&lt;/p&gt;</description>
+      <description>GitHubとCloudflare Pagesを使って、EvolutionVaultからBlogVaultへの技術ブログ記事の転送を完全自動化！効率的なブログ管理を実現する具体的な構築手順とベストプラクティスを詳しく解説します。</description>
     </item>
     <item>
       <title>中長期の目標</title>
