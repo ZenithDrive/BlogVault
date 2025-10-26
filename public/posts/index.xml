@@ -9,6 +9,13 @@
     <lastBuildDate>Sat, 25 Oct 2025 10:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Building an Automated Pipeline</title>
+      <link>http://localhost:1313/posts/draft-article/</link>
+      <pubDate>Sat, 25 Oct 2025 10:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/draft-article/</guid>
+      <description>Learn how to build an automated content pipeline that streamlines article publishing from EvolutionVault to BlogVault, reducing manual work and improving dep...</description>
+    </item>
+    <item>
       <title>Building an Automated Pipeline: From EvolutionVault to BlogVault</title>
       <link>http://localhost:1313/posts/draft-article/</link>
       <pubDate>Sat, 25 Oct 2025 10:00:00 +0000</pubDate>

@@ -168,8 +168,9 @@
   },
   "active": "76ed05e7a195963b",
   "lastOpenFiles": [
-    "content/ja/posts/EvolutionVaultからBlogVaultへの記事転送自動化システムの構築方法.md",
     "content/posts/Building an Automated Pipeline.md",
+    "temp_git_status.txt",
+    "content/ja/posts/EvolutionVaultからBlogVaultへの記事転送自動化システムの構築方法.md",
     "content/ja/posts/EvolutionVaultからBlogVaultへの自動化システム構築.md",
     "content/posts/Building an Automated Pipeline - From EvolutionVault to BlogVault.md",
     "content/ja/posts/my-second-post.md",
@@ -183,7 +184,6 @@
     "public/ja/posts/welcome/index.html",
     "public/ja/posts/welcome",
     "layouts/partials/extend_head.html",
-    "assets/css/custom.css",
     "content/posts/EvolutionVaultからBlogVaultへの自動化システム構築.md",
     "content/ja/posts/welcome.md",
     "content/en/posts/Building an Automated Pipeline - From EvolutionVault to BlogVault.md",
@@ -212,7 +212,6 @@
     "themes/hugo-clarity/README.md",
     "themes/hugo-clarity/LICENSE.md",
     "content/posts/draft-Out_Article_Zenn_Article_pandoc_citations.md",
-    "themes/terminal/exampleSite/content/posts/hello.md",
-    "themes/terminal/exampleSite/content/showcase.md"
+    "themes/terminal/exampleSite/content/posts/hello.md"
   ]
 }
