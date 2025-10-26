@@ -5,6 +5,7 @@ date = "2025-10-25 10:00:00"
 draft = false
 tags = ["automation", "blog", "hugo", "cloudflare"]
 categories = ["technology"]
+description = "GitHubとCloudflare Pagesを使って、EvolutionVaultからBlogVaultへの技術ブログ記事の転送を完全自動化！効率的なブログ管理を実現する具体的な構築手順とベストプラクティスを詳しく解説します。"
 +++
 
 ## 概要
