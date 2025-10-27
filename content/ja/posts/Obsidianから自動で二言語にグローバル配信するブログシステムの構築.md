@@ -1,10 +1,10 @@
 +++
 title = "Obsidianから自動で二言語にグローバル配信するブログシステムの構築"
-date = "2025-10-27T23:19:05+09:00"
+date = "2025-10-27T23:23:14+09:00"
 draft = false
 tags = ["automation", "blog", "hugo", "cloudflare", "obsidian", "AI", "productivity"]
 slug = "automated-bilingual-blog-system"
-description = "Obsidianのマークダウン記事を日本語・英語の二言語に自動変換し、グローバルに配信できるブログシステムの構築方法を解説。低コストで効率的な情報発信基盤の作り方から技術的な実装まで、ステップバイステップで学べます。"
+description = "Obsidianのマークダウン記事を日本語・英語の二言語に自動変換し、グローバルに配信できるブログシステムを構築。エンジニア向けに、低コストで効率的な情報発信基盤の作り方から実装手順まで、実践的に解説します。"
 +++
 
 ## はじめに：なぜこのシステムを作ったのか
@@ -228,7 +228,6 @@ check.bat
 **目的**: SEO最適化・Description自動生成を行います
 
 ```bash
-# publish.bat実行時に自動実行
 ```
 
 **実行内容**:
