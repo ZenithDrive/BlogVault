@@ -1,8 +1,8 @@
 +++
 title = "Building an Automated Bilingual Blog System with Obsidian: Going Global in Two Languages"
-date = 2025-10-27T22:00:00+09:00
+date = "2024-10-27T22:00:00+09:00"
 draft = false
-slug = "building-automated-bilingual-blog-system"
+slug = "automated-bilingual-blog-system"
 tags = ["automation", "blog", "hugo", "cloudflare", "obsidian", "AI", "productivity"]
 +++
 
@@ -84,7 +84,7 @@ Annual cost: $10.18 (domain fee only)
 
 ### Overall System Diagram
 
-```mermaid
+<div class="mermaid">
 graph TD
     subgraph Writing["Writing Environment (Obsidian)"]
         A[Write Articles in Markdown] --> B[Core Vault]
@@ -92,22 +92,22 @@ graph TD
     end
     
     subgraph Automation["Automation Layer (Python + AI)"]
-        C --> D[AI Translation<br/>Claude API]
-        D --> E[SEO Optimization<br/>Auto Description Generation]
-        E --> F[Quality Check<br/>AI Analysis]
+        C --> D["AI Translation#br;Claude API"]
+        D --> E["SEO Optimization#br;Auto Description Generation"]
+        E --> F["Quality Check#br;AI Analysis"]
         F --> G[Hugo Static Site Generation]
     end
     
     subgraph Deploy["Deployment & Delivery"]
         G --> H[GitHub Repository]
-        H --> I[Cloudflare Pages<br/>Auto Build]
-        I --> J[Custom Domain Blog<br/>CDN Delivery]
+        H --> I["Cloudflare Pages#br;Auto Build"]
+        I --> J["Custom Domain Blog#br;CDN Delivery"]
     end
     
     subgraph SNS["Social Media Distribution"]
         G --> K[LinkedIn Post Generation]
         K --> L[LinkedIn API Posting]
-        G --> M[Medium/Dev.to<br/>Distribution Prep]
+        G --> M["Medium/Dev.to#br;Distribution Prep"]
     end
     
     subgraph Analytics["Analytics"]
@@ -125,7 +125,7 @@ graph TD
     style I fill:#ADD8E6,stroke:#333
     style J fill:#90EE90,stroke:#333
     style O fill:#FFB6C1,stroke:#333
-```
+</div>
 
 ---
 

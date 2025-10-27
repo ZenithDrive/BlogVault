@@ -1,9 +1,10 @@
 +++
 title = "Obsidianから自動で二言語にグローバル配信するブログシステムの構築"
-date = 2025-10-27T22:00:00+09:00
+date = "2025-10-27T20:29:20+09:00"
 draft = false
 tags = ["automation", "blog", "hugo", "cloudflare", "obsidian", "AI", "productivity"]
-description = "Obsidianのマークダウン記事を日英二言語に自動変換し、グローバルに配信できるブログシステムの構築方法を詳しく解説。低コストで始められる効率的な情報発信の実践的なガイドと、具体的な実装手順をご紹介します。"
+slug = "automated-bilingual-blog-system"
+description = "Obsidianのマークダウン記事を日本語・英語の二言語に自動変換し、グローバルに配信できるブログシステムを構築。コスト効率の良い情報発信基盤の作り方から具体的な実装手順まで、実践的に解説します。"
 +++
 
 ## はじめに：なぜこのシステムを作ったのか
@@ -30,12 +31,12 @@ description = "Obsidianのマークダウン記事を日英二言語に自動変
 記事執筆（Obsidian） → ボタン1つ → 世界に配信
 
 具体的には：
-✅ 日本語で執筆 → AI翻訳で英語版も自動生成
-✅ SEO最適化を自動実行
-✅ 独自ドメインブログに自動公開
-✅ LinkedIn投稿を自動生成
-✅ Medium、Dev.to等への配信準備
-✅ Google Analytics自動追跡
+- 日本語で執筆 → AI翻訳で英語版も自動生成
+- SEO最適化を自動実行
+- 独自ドメインブログに自動公開
+- LinkedIn投稿を自動生成
+- Medium、Dev.to等への配信準備
+- Google Analytics自動追跡
 
 所要時間: 記事執筆以外は最終的には5分以内
 年間コスト: $10.18（ドメイン代のみ）
@@ -81,7 +82,8 @@ description = "Obsidianのマークダウン記事を日英二言語に自動変
 
 ### 全体構成図
 
-```mermaid
+
+<div class="mermaid">
 graph TD
     subgraph Writing["執筆環境（Obsidian）"]
         A[記事をMarkdownで執筆] --> B[Core Vault]
@@ -89,22 +91,22 @@ graph TD
     end
     
     subgraph Automation["自動化レイヤー（Python + AI）"]
-        C --> D[AI翻訳<br/>Claude API]
-        D --> E[SEO最適化<br/>Description自動生成]
-        E --> F[品質チェック<br/>AI分析]
+        C --> D[AI翻訳#br;Claude API]
+        D --> E[SEO最適化#br;Description自動生成]
+        E --> F[品質チェック#br;AI分析]
         F --> G[Hugo静的サイト生成]
     end
     
     subgraph Deploy["デプロイ・配信"]
         G --> H[GitHub Repository]
-        H --> I[Cloudflare Pages<br/>自動ビルド]
-        I --> J[独自ドメインブログ<br/>CDN配信]
+        H --> I[Cloudflare Pages#br;自動ビルド]
+        I --> J[独自ドメインブログ#br;CDN配信]
     end
     
     subgraph SNS["SNS展開"]
         G --> K[LinkedIn投稿生成]
         K --> L[LinkedIn API投稿]
-        G --> M[Medium/Dev.to<br/>配信準備]
+        G --> M[Medium/Dev.to#br;配信準備]
     end
     
     subgraph Analytics["分析"]
@@ -122,7 +124,8 @@ graph TD
     style I fill:#ADD8E6,stroke:#333
     style J fill:#90EE90,stroke:#333
     style O fill:#FFB6C1,stroke:#333
-```
+</div>
+
 
 ---
 
@@ -153,7 +156,6 @@ graph TD
 ```bash
 draft.bat
 
-# または英語翻訳も同時に
 draft_translate.bat
 ```
 
@@ -196,12 +198,12 @@ check.bat
 ```
 
 **チェック項目**:
-- ✅ 主語の省略検出（日本語特有の問題）
-- ✅ 論理の飛躍検出
-- ✅ 抽象→具体の対応
-- ✅ 曖昧表現の検出
-- ✅ 技術用語の正確性
-- ✅ SEO観点での改善提案
+- 主語の省略検出（日本語特有の問題）
+- 論理の飛躍検出
+- 抽象→具体の対応
+- 曖昧表現の検出
+- 技術用語の正確性
+- SEO観点での改善提案
 
 **出力例**:
 ```markdown
@@ -596,10 +598,10 @@ https://takuyaniioka.com/posts/article-slug/
 
 ## まとめ：このシステムの本質
 
-✅ 時間短縮: 5時間 → 1時間
-✅ コスト削減: 95%削減
-✅ 多言語対応: 日英自動
-✅ SNS展開: 自動化
+- 時間短縮: 5時間 → 1時間
+- コスト削減: 95%削減
+- 多言語対応: 日英自動
+- SNS展開: 自動化
 
 ## リソース
 
