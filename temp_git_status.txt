@@ -1,5 +1,7 @@
  M .obsidian/workspace.json
- M "content/ja/posts/Obsidian\343\201\213\343\202\211\350\207\252\345\213\225\343\201\247\344\272\214\350\250\200\350\252\236\343\201\253\343\202\260\343\203\255\343\203\274\343\203\220\343\203\253\351\205\215\344\277\241\343\201\231\343\202\213\343\203\226\343\203\255\343\202\260\343\202\267\343\202\271\343\203\206\343\203\240\343\201\256\346\247\213\347\257\211.md"
  M "content/posts/Building an Automated Bilingual Blog System with Obsidian - Going Global in Two Languages.md"
+ M public/index.xml
+ M public/posts/index.html
+ M public/posts/index.xml
  M temp_git_status.txt
  M themes/PaperMod
