@@ -1,6 +1,6 @@
 +++
 title = "Obsidianから自動で二言語にグローバル配信するブログシステムの構築"
-date = "2025-10-27T20:31:28+09:00"
+date = "2025-10-27T23:19:05+09:00"
 draft = false
 tags = ["automation", "blog", "hugo", "cloudflare", "obsidian", "AI", "productivity"]
 slug = "automated-bilingual-blog-system"
@@ -131,17 +131,17 @@ graph TD
 
 ### 技術スタック
 
-| カテゴリ | 技術 | 役割 | コスト |
-|---------|------|------|--------|
-| **執筆** | Obsidian | Markdown記事作成、知的生産の核 | 無料 |
-| **SSG** | Hugo | 静的サイト生成（Markdown→HTML） | 無料 |
-| **AI** | Claude API | 翻訳・品質チェック・SEO最適化 | $5-10/月 |
-| **ホスティング** | Cloudflare Pages | 自動デプロイ・CDN配信 | 無料 |
-| **バージョン管理** | GitHub | ソース管理・CI/CD | 無料 |
-| **ドメイン** | NameCheap | 独自ドメイン | $10.18/年 ✅ |
-| **DNS** | Cloudflare | DNS管理・メール転送 | 無料 |
-| **SNS API** | LinkedIn API | 自動投稿 | 無料 |
-| **分析** | Google Analytics | アクセス追跡 | 無料 |
+| カテゴリ        | 技術               | 役割                     | コスト        |
+| ----------- | ---------------- | ---------------------- | ---------- |
+| **執筆**      | Obsidian         | Markdown記事作成、知的生産の核    | 無料         |
+| **SSG**     | Hugo             | 静的サイト生成（Markdown→HTML） | 無料         |
+| **AI**      | Claude API       | 翻訳・品質チェック・SEO最適化       | $5-10/月    |
+| **ホスティング**  | Cloudflare Pages | 自動デプロイ・CDN配信           | 無料         |
+| **バージョン管理** | GitHub           | ソース管理・CI/CD            | 無料         |
+| **ドメイン**    | NameCheap        | 独自ドメイン                 | $10.18/年 ✅ |
+| **DNS**     | Cloudflare       | DNS管理・メール転送            | 無料         |
+| **SNS API** | LinkedIn API     | 自動投稿                   | 無料         |
+| **分析**      | Google Analytics | アクセス追跡                 | 無料         |
 
 **年間コスト合計: $10.18 + API利用料 $60-120 = $70.18-130.18（約1万円）**
 
@@ -149,7 +149,7 @@ graph TD
 
 ## 実装の核心：5つのステージ
 
-### ステージ1️⃣: 下書き（Draft）
+### ステージ１: 下書き（Draft）
 
 **目的**: ローカルで記事を確認・修正します
 
@@ -188,7 +188,7 @@ def translate_with_claude(japanese_text):
     return response
 ```
 
-### ステージ2️⃣: 品質チェック（Check）
+### ステージ２: 品質チェック（Check）
 
 **目的**: AI による記事品質分析を行います
 
@@ -206,7 +206,6 @@ check.bat
 
 **出力例**:
 ```markdown
-# 品質レポート
 
 ## 主語の省略（3箇所）
 - Line 45: "システムを構築した" → 誰が？
@@ -224,7 +223,7 @@ check.bat
 改善すると: 90/100
 ```
 
-### ステージ3️⃣: 公開前最適化（Pre-Publish）
+### ステージ３: 公開前最適化（Pre-Publish）
 
 **目的**: SEO最適化・Description自動生成を行います
 
@@ -278,7 +277,7 @@ seo_checks = {
 3. でもHTMLには残す（SEO用）
 ```
 
-### ステージ4️⃣: 公開（Publish）
+### ステージ４: 公開（Publish）
 
 **目的**: 記事を実際に公開します
 
@@ -329,7 +328,7 @@ CDN配信
 ブログ公開 
 ```
 
-### ステージ5️⃣: SNS展開（LinkedIn）
+### ステージ５: SNS展開（LinkedIn）
 
 **目的**: 記事からLinkedIn投稿を自動生成します
 
@@ -339,7 +338,7 @@ linkedin_post.bat
 
 このシステムでは、記事から自動的にLinkedIn投稿を生成することができます。必要に応じて手動で編集・投稿することも可能な設計に今後修正していく予定です。
 
-### ステージ6️⃣: アクセス分析（Analytics）
+### ステージ６: アクセス分析（Analytics）
 
 **Google Analytics GA4統合**:
 

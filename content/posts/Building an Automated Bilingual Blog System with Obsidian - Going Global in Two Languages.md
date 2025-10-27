@@ -1,9 +1,9 @@
 +++
 title = "Building an Automated Bilingual Blog System with Obsidian: Going Global in Two Languages"
-date = "2024-10-27T22:00:00+09:00"
-draft = false
-slug = "automated-bilingual-blog-system"
+date = "2025-10-26T22:00:00+09:00"
+draft = true
 tags = ["automation", "blog", "hugo", "cloudflare", "obsidian", "AI", "productivity"]
+slug = "automated-bilingual-blog-system"
 +++
 
 # Building a Blog System for Automatic Bilingual Global Distribution from Obsidian
@@ -33,12 +33,12 @@ In this article, I'll introduce the **bilingual automated blog posting system I 
 Write article (Obsidian) → One button → Distribute worldwide
 
 Specifically:
-✅ Write in Japanese → Auto-generate English version via AI translation
-✅ Automatic SEO optimization
-✅ Auto-publish to custom domain blog
-✅ Auto-generate LinkedIn posts
-✅ Prepare for distribution to Medium, Dev.to, etc.
-✅ Automatic Google Analytics tracking
+- Write in Japanese → Auto-generate English version via AI translation
+- Automatic SEO optimization
+- Auto-publish to custom domain blog
+- Auto-generate LinkedIn posts
+- Prepare for distribution to Medium, Dev.to, etc.
+- Automatic Google Analytics tracking
 
 Time required: Within 5 minutes (excluding article writing)
 Annual cost: $10.18 (domain fee only)
@@ -84,6 +84,7 @@ Annual cost: $10.18 (domain fee only)
 
 ### Overall System Diagram
 
+
 <div class="mermaid">
 graph TD
     subgraph Writing["Writing Environment (Obsidian)"]
@@ -92,22 +93,22 @@ graph TD
     end
     
     subgraph Automation["Automation Layer (Python + AI)"]
-        C --> D["AI Translation#br;Claude API"]
-        D --> E["SEO Optimization#br;Auto Description Generation"]
-        E --> F["Quality Check#br;AI Analysis"]
+        C --> D[AI Translation#br;Claude API]
+        D --> E[SEO Optimization#br;Auto Description Generation]
+        E --> F[Quality Check#br;AI Analysis]
         F --> G[Hugo Static Site Generation]
     end
     
     subgraph Deploy["Deployment & Delivery"]
         G --> H[GitHub Repository]
-        H --> I["Cloudflare Pages#br;Auto Build"]
-        I --> J["Custom Domain Blog#br;CDN Delivery"]
+        H --> I[Cloudflare Pages#br;Auto Build]
+        I --> J[Custom Domain Blog#br;CDN Delivery]
     end
     
     subgraph SNS["Social Media Distribution"]
         G --> K[LinkedIn Post Generation]
         K --> L[LinkedIn API Posting]
-        G --> M["Medium/Dev.to#br;Distribution Prep"]
+        G --> M[Medium/Dev.to#br;Distribution Prep]
     end
     
     subgraph Analytics["Analytics"]
@@ -126,6 +127,7 @@ graph TD
     style J fill:#90EE90,stroke:#333
     style O fill:#FFB6C1,stroke:#333
 </div>
+
 
 ---
 
@@ -149,7 +151,7 @@ graph TD
 
 ## Core Implementation: 5 Stages
 
-### Stage 1️⃣: Draft
+### Stage 1: Draft
 
 **Purpose**: Review and modify articles locally
 
@@ -191,7 +193,7 @@ def translate_with_claude(japanese_text):
     return response
 ```
 
-### Stage 2️⃣: Quality Check
+### Stage 2: Quality Check
 
 **Purpose**: Perform AI-based article quality analysis
 
@@ -200,17 +202,17 @@ check.bat
 ```
 
 **Check Items**:
-- ✅ Detection of omitted subjects (Japanese-specific issue)
-- ✅ Detection of logical gaps
-- ✅ Abstract-to-concrete correspondence
-- ✅ Detection of ambiguous expressions
-- ✅ Accuracy of technical terms
-- ✅ SEO improvement suggestions
+- Detection of omitted subjects (Japanese-specific issue)
+- Detection of logical gaps
+- Abstract-to-concrete correspondence
+- Detection of ambiguous expressions
+- Accuracy of technical terms
+- SEO improvement suggestions
 
 **Output Example**:
+
 ```markdown
 # Quality Report
-```
 
 ## Subject Omission (3 places)
 - Line 45: "Built the system" → Who did?
@@ -228,7 +230,7 @@ check.bat
 Can improve to: 90/100
 ```
 
-### Stage 3️⃣: Pre-Publish Optimization
+### Stage 3: Pre-Publish Optimization
 
 **Purpose**: Perform SEO optimization and Description auto-generation
 
@@ -282,7 +284,7 @@ Solution:
 3. Keep in HTML (for SEO)
 ```
 
-### Stage 4️⃣: Publish
+### Stage 4: Publish
 
 **Purpose**: Actually publish the article
 
@@ -333,7 +335,7 @@ CDN Distribution
 Blog Published
 ```
 
-### Stage 5️⃣: Social Media (LinkedIn)
+### Stage 5: Social Media (LinkedIn)
 
 **Purpose**: Automatically generate LinkedIn posts from articles
 
@@ -343,7 +345,7 @@ linkedin_post.bat
 
 This system can automatically generate LinkedIn posts from articles. We plan to modify the design in the future to allow manual editing and posting as needed.
 
-### Stage 6️⃣: Analytics
+### Stage 6: Analytics
 
 **Google Analytics GA4 Integration**:
 
@@ -544,12 +546,12 @@ Automatic switching:
 
 ### Quantitative Results
 
-| Metric | Before | After | Improvement |
-| --------- | --------------- | -------------------- | ----- |
-| **Writing Efficiency** | 5 hours/article | 1 hour/article | 5x faster |
-| **Weekly Posts** | 0-1 posts | 2 posts | 2x+ |
-| **Annual Articles** | 10-20 (including dropouts) | 60+ (achievable target) | 3-6x |
-| **Cost** | Outsourced translation $50-100/article | $10.18/year + API $10/month | 95% reduction |
+| Metric                 | Before                                 | After                       | Improvement   |
+| ---------------------- | -------------------------------------- | --------------------------- | ------------- |
+| **Writing Efficiency** | 5 hours/article                        | 1 hour/article              | 5x faster     |
+| **Weekly Posts**       | 0-1 posts                              | 2 posts                     | 2x+           |
+| **Annual Articles**    | 10-20 (including dropouts)             | 60+ (achievable target)     | 3-6x          |
+| **Cost**               | Outsourced translation $50-100/article | $10.18/year + API $10/month | 95% reduction |
 
 ## How to Build This System
 
@@ -598,10 +600,10 @@ Automatic switching:
 
 ## Summary: The Essence of This System
 
-✅ Time reduction: 5 hours → 1 hour
-✅ Cost reduction: 95% reduction 
-✅ Multilingual support: Japanese-English automatic
-✅ Social media deployment: Automated
+- Time reduction: 5 hours → 1 hour
+- Cost reduction: 95% reduction 
+- Multilingual support: Japanese-English automatic
+- Social media deployment: Automated
 
 ## Resources
 
