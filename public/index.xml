@@ -6,14 +6,21 @@
     <description>Recent content on Takuya Niioka</description>
     <generator>Hugo -- 0.148.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 26 Oct 2025 10:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 27 Oct 2025 23:26:33 +0900</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Welcome to My Blog</title>
-      <link>http://localhost:1313/ja/posts/welcome/</link>
-      <pubDate>Sun, 26 Oct 2025 10:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/ja/posts/welcome/</guid>
-      <description>Introduction to my ADAS and autonomous driving blog</description>
+      <title>Building an Automated Bilingual Blog System with Obsidian - Going Global in Two Languages</title>
+      <link>http://localhost:1313/posts/building-an-automated-bilingual-blog-system-with-obsidian---going-global-in-two-languages/</link>
+      <pubDate>Mon, 27 Oct 2025 23:26:33 +0900</pubDate>
+      <guid>http://localhost:1313/posts/building-an-automated-bilingual-blog-system-with-obsidian---going-global-in-two-languages/</guid>
+      <description>Create an automated bilingual blog using Obsidian, AI translation, and publishing automation. Share your technical content globally for less than $11/year.</description>
+    </item>
+    <item>
+      <title>Obsidianから自動で二言語にグローバル配信するブログシステムの構築</title>
+      <link>http://localhost:1313/ja/posts/automated-bilingual-blog-system/</link>
+      <pubDate>Mon, 27 Oct 2025 23:13:54 +0900</pubDate>
+      <guid>http://localhost:1313/ja/posts/automated-bilingual-blog-system/</guid>
+      <description>Obsidianのマークダウン記事を日本語・英語の二言語に自動変換し、グローバルに配信できるブログシステムの構築方法を解説。低コストで効率的な情報発信基盤の作り方から技術的な実装まで、ステップバイステップで学べます。</description>
     </item>
     <item>
       <title>About</title>
@@ -21,9 +28,9 @@
       <pubDate>Sun, 26 Oct 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/about/</guid>
       <description>&lt;h1 id=&#34;about-me&#34;&gt;About Me&lt;/h1&gt;
-&lt;p&gt;Hi, I&amp;rsquo;m Takuya Niioka, an ADAS Systems Architect with 5+ years of experience in autonomous driving development.&lt;/p&gt;
+&lt;p&gt;Hi, I&amp;rsquo;m Takuya Niioka, an ADAS Systems Architect with 8+ years of experience in autonomous driving development.&lt;/p&gt;
 &lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;
-&lt;p&gt;Currently working on ADAS量産開発 at [Your Company], focusing on:&lt;/p&gt;
+&lt;p&gt;Currently working on ADAS system developmet at one of Japanese OEMs, focusing on:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;System architecture design&lt;/li&gt;
 &lt;li&gt;Driver monitoring systems&lt;/li&gt;
@@ -37,51 +44,7 @@
 &lt;li&gt;Safety Systems&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;writing&#34;&gt;Writing&lt;/h2&gt;
-&lt;p&gt;I write about ADAS trends, autonomous driving technology, and system architecture on this blog.&lt;/p&gt;
-&lt;h2 id=&#34;connect&#34;&gt;Connect&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;LinkedIn: &lt;a href=&#34;https://linkedin.com/in/yourprofile&#34;&gt;Your Profile&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Medium: &lt;a href=&#34;https://medium.com/@takuyaniioka&#34;&gt;@takuyaniioka&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Email: &lt;a href=&#34;mailto:contact@takuyaniioka.com&#34;&gt;contact@takuyaniioka.com&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Building an Automated Pipeline</title>
-      <link>http://localhost:1313/posts/draft-article/</link>
-      <pubDate>Sat, 25 Oct 2025 10:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/draft-article/</guid>
-      <description>Learn how to build an automated content pipeline that streamlines article publishing from EvolutionVault to BlogVault, reducing manual work and improving dep...</description>
-    </item>
-    <item>
-      <title>EvolutionVaultからBlogVaultへの記事転送自動化システムの構築方法</title>
-      <link>http://localhost:1313/ja/posts/draft-article/</link>
-      <pubDate>Sat, 25 Oct 2025 10:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ja/posts/draft-article/</guid>
-      <description>GitHubとCloudflare Pagesを使って、EvolutionVaultからBlogVaultへの技術ブログ記事の転送を完全自動化！効率的なブログ管理を実現する具体的な構築手順とベストプラクティスを詳しく解説します。</description>
-    </item>
-    <item>
-      <title>中長期の目標</title>
-      <link>http://localhost:1313/ja/posts/my-second-post/</link>
-      <pubDate>Tue, 04 Feb 2025 11:00:37 +0900</pubDate>
-      <guid>http://localhost:1313/ja/posts/my-second-post/</guid>
-      <description>&lt;p&gt;私は2028年までに、以下を達成することをここに誓います。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;【2028年の目標】&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;米国の技術系トップ企業(GoogleやAppleなど)に転職してエンジニアとして活躍する&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;そのために、私は2025年の目標として以下を打ち立てます。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;【2025年の目標】&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;強化学習で走行する自動運転を完成させること&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;これを達成することは非常にチャレンジングかもしれないけれど、頑張りたいんだ。なぜなら、これまで私はぐうたらだったから。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Test</title>
-      <link>http://localhost:1313/ja/posts/test/</link>
-      <pubDate>Tue, 04 Feb 2025 08:05:56 +0900</pubDate>
-      <guid>http://localhost:1313/ja/posts/test/</guid>
-      <description>&lt;p&gt;Hello, this is my first hugo post!&lt;/p&gt;</description>
+&lt;p&gt;I write about ADAS trends, autonomous driving technology, and system architecture on this blog.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -6,14 +6,14 @@
     <description>Recent content in Posts on Takuya Niioka</description>
     <generator>Hugo -- 0.148.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 25 Oct 2025 10:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 27 Oct 2025 23:26:33 +0900</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Building an Automated Pipeline</title>
-      <link>http://localhost:1313/posts/draft-article/</link>
-      <pubDate>Sat, 25 Oct 2025 10:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/draft-article/</guid>
-      <description>Learn how to build an automated content pipeline that streamlines article publishing from EvolutionVault to BlogVault, reducing manual work and improving dep...</description>
+      <title>Building an Automated Bilingual Blog System with Obsidian - Going Global in Two Languages</title>
+      <link>http://localhost:1313/posts/building-an-automated-bilingual-blog-system-with-obsidian---going-global-in-two-languages/</link>
+      <pubDate>Mon, 27 Oct 2025 23:26:33 +0900</pubDate>
+      <guid>http://localhost:1313/posts/building-an-automated-bilingual-blog-system-with-obsidian---going-global-in-two-languages/</guid>
+      <description>Create an automated bilingual blog using Obsidian, AI translation, and publishing automation. Share your technical content globally for less than $11/year.</description>
     </item>
   </channel>
 </rss>

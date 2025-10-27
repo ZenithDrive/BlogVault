@@ -168,16 +168,17 @@
 
 <article class="post-entry"> 
   <header class="entry-header">
-    <h2 class="entry-hint-parent">Building an Automated Pipeline
+    <h2 class="entry-hint-parent">Building an Automated Bilingual Blog System with Obsidian - Going Global in Two Languages
     </h2>
   </header>
   <div class="entry-content">
-    <p>Overview I built a system that automatically copies articles created in EvolutionVault to BlogVault, pushes them to GitHub, and automatically deploys them using Cloudflare Pages.
-System Architecture 1. Article Creation Environment EvolutionVault: Article creation and management Format: Markdown with YAML frontmatter 2. Automation Scripts Python script: Article conversion, copying, and Git operations Batch file: Execution in Windows environment Configuration file: Management of various settings 3. Deployment Environment BlogVault: Hugo site GitHub: Version control and CI/CD Cloudflare Pages: Automatic deployment Process Flow Article Creation: Create article in EvolutionVault Format Conversion: Convert to Hugo format Copy: Copy to BlogVault Git Operations: Stage, commit, and push Auto Deploy: Update site on Cloudflare Pages Usage Basic Usage blog_automation.bat python blog_automation.py Specify Particular Article python blog_automation.py &#34;article_filename.md&#34; Technical Details Article Format Conversion YAML frontmatter parsing Conversion to Hugo format Metadata preservation Git Operations Automatic staging Commit message generation Push to remote repository Error Handling File existence verification Git operation error handling Detailed error messages Future Improvements UI Enhancement: More user-friendly interface Batch Processing: Bulk processing of multiple articles Templates: Automatic generation of article templates Notifications: Deployment completion notification feature Summary This automation system enables efficient handling of the entire process from article creation to publication. It significantly reduces manual operations, allowing more time to focus on content creation.
+    <p>Introduction: Why I Built This System For 9 years since joining the company, I’ve worked as an engineer in the AD/ADAS field. While I accumulated expertise, I felt it was a career risk that my work wasn’t visible outside the company and had zero recognition in the global market.
+Expertise might as well not exist if it isn’t visible.
+Then I realized: Nothing will change unless I put myself out there.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2025-10-25 10:00:00 +0000 UTC'>October 25, 2025</span>&nbsp;·&nbsp;<span>Takuya Niioka</span></footer>
-  <a class="entry-link" aria-label="post link to Building an Automated Pipeline" href="http://localhost:1313/posts/draft-article/"></a>
+  <footer class="entry-footer"><span title='2025-10-27 23:26:33 +0900 JST'>October 27, 2025</span>&nbsp;·&nbsp;<span>Takuya Niioka</span></footer>
+  <a class="entry-link" aria-label="post link to Building an Automated Bilingual Blog System with Obsidian - Going Global in Two Languages" href="http://localhost:1313/posts/building-an-automated-bilingual-blog-system-with-obsidian---going-global-in-two-languages/"></a>
 </article>
     </main>
     
@@ -195,6 +196,16 @@ System Architecture 1. Article Creation Environment EvolutionVault: Article crea
         <path d="M12 6H0l6-6z" />
     </svg>
 </a>
+<script type="module">
+  import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs";
+
+  mermaid.initialize({
+    securityLevel: "loose",   
+    theme: "default"
+  });
+
+  mermaid.run();  
+</script>
 
 <script>
     let menu = document.getElementById('menu')
@@ -248,7 +259,6 @@ System Architecture 1. Article Creation Environment EvolutionVault: Article crea
             localStorage.setItem("pref-theme", 'dark');
         }
     })
-
 </script>
 </body>
 

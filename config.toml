@@ -160,6 +160,10 @@ publishDir = "public"
 
 # Markup settings
 [markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true  # Mermaid の <br/> や HTML タグを許可
+  
   [markup.highlight]
     anchorLineNos = false
     codeFences = true

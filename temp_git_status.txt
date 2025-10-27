@@ -1,5 +1,24 @@
  M .obsidian/workspace.json
- M GISCUS_SETUP.md
  M config.toml
- M content/about.md
+ M "content/posts/Building an Automated Bilingual Blog System with Obsidian - Going Global in Two Languages.md"
+ M public/404.html
+ D public/en/js/bundle.6239832176e81d9a043e0d2f37ebb327640c7ca661ffddff8459ff75491c877b1cd60fdd4a1587f637750b8f95c14c6093564a6a0a3b02a156acb360c7064a80.js
+ D public/en/js/bundle.a513e51081d8851d8cfd4aaebe384b3b751195c98106c4e4c64ab266ac5fb40b8edcc9d9d29c764c43638d368981ba8fc5c52fac08e58bff7a6f13832dd7f1bc.js
+ M public/index.html
+ M public/index.xml
+ D public/page/1/index.html
+ M public/posts/index.html
+ M public/posts/index.xml
+ D public/posts/my-second-post/index.html
+ D public/posts/mythirdpost/index.html
+ D public/posts/test/index.html
+ D public/posts/test_article/index.html
+ D resources/_gen/assets/ananke/css/main.css_9d7c906d8fe82fddbbd923faebb24419.content
+ D resources/_gen/assets/ananke/css/main.css_9d7c906d8fe82fddbbd923faebb24419.json
+ D resources/_gen/assets/ananke/css/main.css_c23e60d80d9e9820d4a62ccadab8decb.content
+ D resources/_gen/assets/ananke/css/main.css_c23e60d80d9e9820d4a62ccadab8decb.json
+ D resources/_gen/assets/sass/main.sass_c08988f5c5b16b3e63a8398c124d2a74.content
+ D resources/_gen/assets/sass/main.sass_c08988f5c5b16b3e63a8398c124d2a74.json
  M temp_git_status.txt
+ M themes/PaperMod
+?? layouts/partials/extend_footer.html
