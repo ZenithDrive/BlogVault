@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GISCUS_SETUP.md",
+                "file": "content/about.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GISCUS_SETUP"
+              "title": "about"
             }
           }
         ],
@@ -183,24 +183,23 @@
   },
   "active": "6a4c4afe298724e5",
   "lastOpenFiles": [
+    "content/ja/posts/test.md",
+    "content/ja/posts/my-second-post.md",
+    "GISCUS_SETUP.md",
+    "temp_git_status.txt",
     "layouts/partials/svg.html",
     "layouts/_default/single.html",
     "layouts/_default",
     "content/posts/Building an Automated Pipeline.md",
-    "GISCUS_SETUP.md",
     "layouts/partials/comments.html",
-    "temp_git_status.txt",
     "exampleSite/config",
     "exampleSite",
     "content/ja/posts/EvolutionVaultからBlogVaultへの記事転送自動化システムの構築方法.md",
     "content/posts/Building an Automated Pipeline - From EvolutionVault to BlogVault.md",
     "content/ja/posts/EvolutionVaultからBlogVaultへの自動化システム構築.md",
-    "content/ja/posts/my-second-post.md",
-    "content/ja/posts/test.md",
     "public/ja/tags/about/page/1/index.html",
     "public/ja/tags/about/page/1",
     "public/ja/tags/about/index.xml",
-    "public/ja/tags/about/page",
     "content/posts/EvolutionVaultからBlogVaultへの自動化システム構築.md",
     "content/ja/posts/welcome.md",
     "content/en/posts/Building an Automated Pipeline - From EvolutionVault to BlogVault.md",

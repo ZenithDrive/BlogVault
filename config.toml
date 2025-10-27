@@ -100,6 +100,11 @@ publishDir = "public"
   [[params.socialIcons]]
     name = "dev"
     url = "https://dev.to/takuya-niioka"
+
+  [[params.socialIcons]]
+    name = "x"
+    url = "https://x.com/takuya_niioka"
+
   
   [[params.socialIcons]]
     name = "email"

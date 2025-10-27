@@ -1,8 +1,5 @@
  M .obsidian/workspace.json
- M assets/css/custom.css
+ M GISCUS_SETUP.md
  M config.toml
+ M content/about.md
  M temp_git_status.txt
-?? GISCUS_SETUP.md
-?? layouts/_default/
-?? layouts/partials/comments.html
-?? layouts/partials/svg.html
