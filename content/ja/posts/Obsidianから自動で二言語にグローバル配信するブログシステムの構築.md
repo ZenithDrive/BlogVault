@@ -1,10 +1,10 @@
 +++
 title = "Obsidianから自動で二言語にグローバル配信するブログシステムの構築"
-date = "2025-10-27T23:23:14+09:00"
+date = "2025-10-27T23:26:33+09:00"
 draft = false
 tags = ["automation", "blog", "hugo", "cloudflare", "obsidian", "AI", "productivity"]
 slug = "automated-bilingual-blog-system"
-description = "Obsidianのマークダウン記事を日本語・英語の二言語に自動変換し、グローバルに配信できるブログシステムを構築。エンジニア向けに、低コストで効率的な情報発信基盤の作り方から実装手順まで、実践的に解説します。"
+description = "Obsidianのマークダウン記事を日本語・英語の二言語に自動変換し、グローバルに配信できるブログシステムの構築方法を詳しく解説。低コストで効率的な情報発信基盤の作り方から技術的な実装手順まで、実践的なノウハウをステップバイステップで紹介します。"
 +++
 
 ## はじめに：なぜこのシステムを作ったのか
@@ -342,7 +342,6 @@ linkedin_post.bat
 **Google Analytics GA4統合**:
 
 ```toml
-# BlogVault/config.toml
 [params]
   googleAnalytics = "G-XXXXXXXXXX"
 ```
