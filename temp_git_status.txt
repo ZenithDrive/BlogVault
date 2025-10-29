@@ -1,3 +1,2 @@
- M .obsidian/workspace.json
  M temp_git_status.txt
  M themes/PaperMod
