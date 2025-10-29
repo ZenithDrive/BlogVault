@@ -1,10 +1,18 @@
 +++
 title = "Why Safety During Manual Driving Matters More Than During Autonomous Driving"
-date = "2025-10-29T23:38:35+09:00"
+date = "2025-10-30T00:00:37+09:00"
+draft = false
+tags = []
++++
+
++++
+title = "Why Safety During Manual Driving Matters More Than During Autonomous Driving"
+date = "2025-10-28+09:00"
 draft = false
 tags = ["ADAS", "autonomous driving", "Level 3", "traffic safety", "automotive technology"]
 slug = "why-l0-more-important-than-l2"
 +++
+
 ## The ADAS Paradox — The "Essence" Beyond Automation
 
 More than five years have passed since autonomous driving became a hot topic. In countries around the world, autonomous taxi demonstration experiments and advancements in highway driving assistance are progressing, and news reports increasingly proclaim that "the era of autonomous driving is near."
