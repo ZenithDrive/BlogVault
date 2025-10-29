@@ -1,19 +1,11 @@
 +++
-title = "Building an Automated Bilingual Blog System with Obsidian - Going Global in Two Languages"
-date = "2025-10-29T13:29:15+09:00"
-draft = false
-tags = []
-description = "Create an automated bilingual blog using Obsidian, AI translation, and publishing automation. Share your technical content globally for less than $11/year."
-+++
-
-+++
 title = "Building an Automated Bilingual Blog System with Obsidian: Going Global in Two Languages"
-date = 2025-10-26 22:00:00
+date = "2025-10-26T22:03:31+09:00"
 slug = "automated-bilingual-blog-system"
 draft = true
 tags = ["automation", "blog", "hugo", "cloudflare", "obsidian", "AI", "productivity"]
+description = "Create an automated bilingual blog using Obsidian, AI translation, and publishing automation. Share your technical content globally for less than $11/year."
 +++
-
 
 ## Introduction: Why I Built This System
 
