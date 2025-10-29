@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/Why Safety During Manual Driving Matters More Than During Autonomous Driving.md",
+                "file": "content/posts/Building an Automated Bilingual Blog System with Obsidian - Going Global in Two Languages.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Why Safety During Manual Driving Matters More Than During Autonomous Driving"
+              "title": "Building an Automated Bilingual Blog System with Obsidian - Going Global in Two Languages"
             }
           }
         ]
@@ -168,11 +168,11 @@
   },
   "active": "6a4c4afe298724e5",
   "lastOpenFiles": [
-    "temp_git_status.txt",
-    "content/posts/Building an Automated Bilingual Blog System with Obsidian - Going Global in Two Languages.md",
-    "content/posts/Why Safety During Manual Driving Matters More Than During Autonomous Driving.md",
     "content/ja/posts/なぜ手動運転中の安全性が自動運転中より重要なのか.md",
+    "content/posts/Why Safety During Manual Driving Matters More Than During Autonomous Driving.md",
+    "content/posts/Building an Automated Bilingual Blog System with Obsidian - Going Global in Two Languages.md",
     "content/ja/posts/Obsidianから自動で二言語にグローバル配信するブログシステムの構築.md",
+    "temp_git_status.txt",
     "public/tags/automotive-technology/index.xml",
     "public/posts/why-l0-more-important-than-l2/index.html",
     "public/posts/why-l0-more-important-than-l2",
@@ -182,7 +182,6 @@
     "public/tags/level-3/index.xml",
     "public/tags/level-3/index.html",
     "public/tags/level-3",
-    "public/tags/traffic-safety/page/1/index.html",
     "content/about.md",
     "public/images/profile.jpg",
     "themes/ananke/assets/ananke/socials/suse.svg",
