@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on Takuya Niioka</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>http://localhost:61824/posts/</link>
     <description>Recent content in Posts on Takuya Niioka</description>
     <generator>Hugo -- 0.148.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 27 Oct 2025 23:26:33 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 26 Oct 2025 22:03:31 +0900</lastBuildDate>
+    <atom:link href="http://localhost:61824/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Building an Automated Bilingual Blog System with Obsidian - Going Global in Two Languages</title>
-      <link>http://localhost:1313/posts/automated-bilingual-blog-system/</link>
-      <pubDate>Mon, 27 Oct 2025 23:26:33 +0900</pubDate>
-      <guid>http://localhost:1313/posts/automated-bilingual-blog-system/</guid>
+      <title>Building an Automated Bilingual Blog System with Obsidian: Going Global in Two Languages</title>
+      <link>http://localhost:61824/posts/automated-bilingual-blog-system/</link>
+      <pubDate>Sun, 26 Oct 2025 22:03:31 +0900</pubDate>
+      <guid>http://localhost:61824/posts/automated-bilingual-blog-system/</guid>
       <description>Create an automated bilingual blog using Obsidian, AI translation, and publishing automation. Share your technical content globally for less than $11/year.</description>
     </item>
   </channel>

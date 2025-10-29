@@ -13,32 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/ja/posts/Obsidianから自動で二言語にグローバル配信するブログシステムの構築.md",
+                "file": "content/posts/Why Safety During Manual Driving Matters More Than During Autonomous Driving.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Obsidianから自動で二言語にグローバル配信するブログシステムの構築"
-            }
-          }
-        ]
-      },
-      {
-        "id": "72d88b58e9356673",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "bd0c1cf3271f638d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/posts/Building an Automated Bilingual Blog System with Obsidian - Going Global in Two Languages.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Building an Automated Bilingual Blog System with Obsidian - Going Global in Two Languages"
+              "title": "Why Safety During Manual Driving Matters More Than During Autonomous Driving"
             }
           }
         ]
@@ -186,21 +166,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bd0c1cf3271f638d",
+  "active": "6a4c4afe298724e5",
   "lastOpenFiles": [
-    "content/ja/posts/Obsidianから自動で二言語にグローバル配信するブログシステムの構築.md",
     "content/posts/Building an Automated Bilingual Blog System with Obsidian - Going Global in Two Languages.md",
-    "temp_git_status.txt",
+    "content/posts/Why Safety During Manual Driving Matters More Than During Autonomous Driving.md",
+    "content/ja/posts/なぜ手動運転中の安全性が自動運転中より重要なのか.md",
+    "content/ja/posts/Obsidianから自動で二言語にグローバル配信するブログシステムの構築.md",
+    "public/tags/automotive-technology/index.xml",
+    "public/posts/why-l0-more-important-than-l2/index.html",
+    "public/posts/why-l0-more-important-than-l2",
+    "public/tags/level-3/page/1/index.html",
+    "public/tags/level-3/page/1",
+    "public/tags/level-3/page",
+    "public/tags/level-3/index.xml",
+    "public/tags/level-3/index.html",
+    "public/tags/level-3",
+    "public/tags/traffic-safety/page/1/index.html",
     "content/about.md",
-    "public/posts/about/index.html",
-    "public/posts/about",
-    "public/posts/building-an-automated-bilingual-blog-system-with-obsidian---going-global-in-two-languages/index.html",
-    "public/posts/building-an-automated-bilingual-blog-system-with-obsidian---going-global-in-two-languages",
-    "public/index.html",
-    "public/search/index.html",
-    "public/search",
-    "public/about/index.html",
-    "public/about",
     "public/images/profile.jpg",
     "themes/ananke/assets/ananke/socials/suse.svg",
     "themes/ananke/assets/ananke/socials/swift.svg",
@@ -230,8 +212,6 @@
     "content/posts/my-second-post.md",
     "content/posts/test.md",
     "content/posts/myThirdPost.md",
-    "content/posts/welcome.md",
-    "content/search.md",
-    "archetypes/default.md"
+    "content/posts/welcome.md"
   ]
 }
