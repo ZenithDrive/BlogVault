@@ -1,10 +1,3 @@
  M .obsidian/workspace.json
- M "content/posts/Why Safety During Manual Driving Matters More Than During Autonomous Driving.md"
- M public/404.html
- M public/index.html
- M public/index.xml
- M public/posts/index.html
- M public/posts/index.xml
- M public/posts/page/1/index.html
  M temp_git_status.txt
  M themes/PaperMod
