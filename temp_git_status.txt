@@ -1,20 +1,13 @@
  M .obsidian/workspace.json
  M GISCUS_SETUP.md
- M assets/css/custom.css
- M config.toml
- D "content/ja/posts/\343\202\250\343\203\263\343\202\270\343\203\213\343\202\242\343\201\214\346\251\237\350\203\275\343\201\247\343\201\257\343\201\252\343\201\217\344\276\241\345\200\244\343\202\222\350\252\236\343\202\213\343\201\271\343\201\215\347\220\206\347\224\261.md"
- M "content/ja/posts/\346\251\237\350\203\275\343\201\247\343\201\257\343\201\252\343\201\217\344\276\241\345\200\244\343\202\222\350\273\270\343\201\253\350\200\203\343\201\210\343\202\213\343\202\250\343\203\263\343\202\270\343\203\213\343\202\242\343\203\252\343\203\263\343\202\260\357\274\232\344\275\225\343\202\222\350\211\257\343\201\227\343\201\250\343\201\231\343\202\213\343\201\213\343\202\222\345\256\232\343\202\201\343\202\213\345\212\233.md"
- M "content/posts/Building an Automated Bilingual Blog System with Obsidian - Going Global in Two Languages.md"
- M "content/posts/Value-Oriented Engineering The Power to Define What We Consider Good.md"
+ M "content/ja/posts/\344\270\215\347\242\272\345\256\237\346\200\247\343\202\222\345\217\227\343\201\221\345\205\245\343\202\214\343\202\213\345\210\244\346\226\255\345\212\233\357\274\23270%\343\201\247\346\261\272\343\202\201\343\202\213\346\200\235\350\200\203\346\263\225.md"
+ M "content/posts/Decision-Making Under Uncertainty - The 70 Percent Rule.md"
  M layouts/_default/single.html
- M layouts/partials/comments.html
  M layouts/partials/extend_footer.html
- M layouts/partials/svg.html
  M public/404.html
  M public/index.html
  M public/index.xml
  M public/posts/index.html
  M public/posts/index.xml
- M public/posts/page/1/index.html
  M temp_git_status.txt
  M themes/PaperMod

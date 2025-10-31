@@ -6,8 +6,15 @@
     <description>Recent content in Posts on Takuya Niioka</description>
     <generator>Hugo -- 0.148.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 31 Oct 2025 23:31:03 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 01 Nov 2025 08:07:30 +0900</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Decision-Making Under Uncertainty: The 70% Rule</title>
+      <link>http://localhost:1313/posts/decision-making-under-uncertainty-70-percent-rule/</link>
+      <pubDate>Sat, 01 Nov 2025 08:07:30 +0900</pubDate>
+      <guid>http://localhost:1313/posts/decision-making-under-uncertainty-70-percent-rule/</guid>
+      <description>A practical framework for making better decisions in uncertain environments. Learn Amazon&amp;#39;s 70% rule, One-Way vs Two-Way Door thinking, Pre-mortem Analysis, ...</description>
+    </item>
     <item>
       <title>Value-Oriented Engineering: The Power to Define What We Consider Good</title>
       <link>http://localhost:1313/posts/value-oriented-engineering/</link>

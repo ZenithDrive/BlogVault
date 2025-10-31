@@ -6,109 +6,28 @@
     <description>Recent content on Takuya Niioka</description>
     <generator>Hugo -- 0.148.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 31 Oct 2025 23:31:03 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 01 Nov 2025 08:07:30 +0900</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Decision-Making Under Uncertainty: The 70% Rule</title>
+      <link>http://localhost:1313/posts/decision-making-under-uncertainty-70-percent-rule/</link>
+      <pubDate>Sat, 01 Nov 2025 08:07:30 +0900</pubDate>
+      <guid>http://localhost:1313/posts/decision-making-under-uncertainty-70-percent-rule/</guid>
+      <description>A practical framework for making better decisions in uncertain environments. Learn Amazon&amp;#39;s 70% rule, One-Way vs Two-Way Door thinking, Pre-mortem Analysis, ...</description>
+    </item>
+    <item>
+      <title>不確実性のもとの意思決定：70%の情報で判断する思考法</title>
+      <link>http://localhost:1313/ja/posts/decision-making-under-uncertainty/</link>
+      <pubDate>Sat, 01 Nov 2025 08:00:07 +0900</pubDate>
+      <guid>http://localhost:1313/ja/posts/decision-making-under-uncertainty/</guid>
+      <description>不確実な環境での意思決定を改善する実践的フレームワーク。Amazonの70%ルール、One-Way/Two-Way Door思考、Pre-mortem Analysisなど、先端技術開発に応用できる判断力向上の手法を解説。</description>
+    </item>
     <item>
       <title>Value-Oriented Engineering: The Power to Define What We Consider Good</title>
       <link>http://localhost:1313/posts/value-oriented-engineering/</link>
       <pubDate>Fri, 31 Oct 2025 23:31:03 +0900</pubDate>
       <guid>http://localhost:1313/posts/value-oriented-engineering/</guid>
       <description>Have you ever felt that &amp;#39;technically excellent work doesn&amp;#39;t get recognized&amp;#39;? Behind this lies a structural problem: the lack of shared value criteria. This a...</description>
-    </item>
-    <item>
-      <title>エンジニアが機能ではなく価値を語るべき理由</title>
-      <link>http://localhost:1313/ja/posts/%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2%E3%81%8C%E6%A9%9F%E8%83%BD%E3%81%A7%E3%81%AF%E3%81%AA%E3%81%8F%E4%BE%A1%E5%80%A4%E3%82%92%E8%AA%9E%E3%82%8B%E3%81%B9%E3%81%8D%E7%90%86%E7%94%B1/</link>
-      <pubDate>Fri, 31 Oct 2025 22:46:06 +0900</pubDate>
-      <guid>http://localhost:1313/ja/posts/%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2%E3%81%8C%E6%A9%9F%E8%83%BD%E3%81%A7%E3%81%AF%E3%81%AA%E3%81%8F%E4%BE%A1%E5%80%A4%E3%82%92%E8%AA%9E%E3%82%8B%E3%81%B9%E3%81%8D%E7%90%86%E7%94%B1/</guid>
-      <description>&lt;h2 id=&#34;エンジニアのジレンマ&#34;&gt;エンジニアのジレンマ&lt;/h2&gt;
-&lt;p&gt;私たちは普段、常に取捨選択に迫られながら生きています。私たちに与えられる”時間”というものは有限であり、そして待ってはくれません。だから、私たちが何かを選択し、逆に何かを捨てながら”今”という時間を生きています（それが、意識的な選択なのか、無意識に現状維持という選択をするのかに差はあるにせよ）。&lt;/p&gt;
-&lt;p&gt;私たちは、少しでも望ましい結果が得られるようにするには、何かの価値観や基準を持って、取捨選択をしなければなりません。&lt;/p&gt;
-&lt;p&gt;開発の現場においても同様です。
-「良いものを作れば認められる」「価値のあるものはやるべき」
-そう思っていても、「なぜやる必要があるのか」という部分をはっきりさせておかないと、組織変更や外界環境の変化によって、いとも簡単に後回しになり、開発が進みません。&lt;/p&gt;
-&lt;p&gt;「良いものであれば開発すべき」ではありません。
-自分たちが最も”今この瞬間に”価値を置くものはこれ。だからこれをやる
-なのです。&lt;/p&gt;
-&lt;p&gt;このことに、私は最近になってようやく気付くことができました。
-この記事では、私がこのように考えるに至った背景や、そのように物事を捉えた先に見えてくるものについて解説したいと思います。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;私個人のストーリー&#34;&gt;私個人のストーリー&lt;/h2&gt;
-&lt;p&gt;私は5年前からある機能の開発に携わってきました。
-他社がすでに量産していたりする技術を自社としても技術構築する、といった名目で始まったプロジェクトでした。
-しかし、そのプロジェクトはすぐに組織の戦略変更の波にもまれることになりました。&lt;/p&gt;
-&lt;p&gt;なぜならば、それはその機能が提供する”価値”が不明確だったから。
-なぜ不明確化というと、それはその機能が提供価値を複数内包する者だったからです。&lt;/p&gt;
-&lt;p&gt;人間の例で例えてもそうです。
-もし子供の料理をサポートすることを考えます。
-はじめは、「なるべく子供にやらせて自主的な学びを重視する」というポリシーを持っているとします。でも、制約条件として仮に、「1時間以内に完成させること」という制約がある場合とない場合とで、どうでしょうか。
-もし、45分経過時点で料理の1/3が完成していないとすると、あなたはどうしますか？少し手を入れ始めると思います。これは、「時間内に必ず仕上げる」というポリシーが、時間の経過とともに優先されたという、戦略・ポリシーの変化に基づいた行動変化です。&lt;/p&gt;
-&lt;p&gt;[ここで言いたいことは図で示した方が分かりやすそう]&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;機能-vs-価値重要な違い&#34;&gt;機能 vs 価値：重要な違い&lt;/h2&gt;
-&lt;p&gt;例えば、機能 (Feature)について語る場合、注意しなければならないのは、少し油断すると「何ができるか」が語られることになります。例えば、”AEBの誤作動を10%削減”とか&amp;quot;NCAPで○○の項目で△△点の加点&amp;quot;のようなものです。&lt;/p&gt;
-&lt;p&gt;これに対して、価値 (Value) について語る場合は、こうなります。例えば、”年間1,500人の命を救い、保険コストを$500M削減”のようなものです。&lt;/p&gt;
-&lt;p&gt;この2つの重要な違いはどこにあると思いますか？
-そうです、機能を語る場合、それが嬉しいのは自分（たち）になります。一方で、価値を語る場合、それが嬉しいのは他社（社会やお客様）になります。&lt;/p&gt;
-&lt;p&gt;更に言えば、この「価値」というものは、ステークホルダーによって当然ながら以下のように異なります。&lt;/p&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;ステークホルダー&lt;/th&gt;
-          &lt;th&gt;価値&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;経営者&lt;/td&gt;
-          &lt;td&gt;ビジネスインパクト&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;顧客&lt;/td&gt;
-          &lt;td&gt;安全・安心&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;規制当局&lt;/td&gt;
-          &lt;td&gt;コンプライアンス&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;ここで言いたいことは、それができるとなぜ嬉しいのかということ、そこに重要な秘密が隠されています。
-それは、そのステークホルダーが、”今”何を重視するかという価値観が反映されているのです。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;どのようにすればそれらを循環させられるか3価値フレームワーク&#34;&gt;どのようにすればそれらを循環させられるか：3価値フレームワーク&lt;/h2&gt;
-&lt;p&gt;では、エンジニアはどのように語り口を構成したらいいのでしょうか。
-Value 3 Frameworkを紹介しましょう。&lt;/p&gt;
-&lt;h3 id=&#34;フレームワーク１ステークホルダーマッピング&#34;&gt;フレームワーク１：ステークホルダーマッピング&lt;/h3&gt;
-&lt;p&gt;まず特定する必要があるのは、「誰に対して」価値を提供するのかです。
-これは意外と簡単なようで奥が深いのですが、よくあるのは「誰のどんなか」の解像度が低いことです。
-例えば、○○な人、というくくりで個別性を無視するのがよく見られます。これが適切に、具体例の抽象化になっていれば問題ないのですが、大概は「具体化」の解像度が低いことが多い。例えば、ドライバー異常＝閉眼・姿勢崩れといった解釈が挙げられます。確かに、間違ってはいないのですが、誰がどんな時に閉眼をするのか、誰がどんな時に姿勢が崩れるのか、ということがクリアになっていないというのが挙げられます。
-ここをしっかりとやり、誰のどんなが定まったとしたら、次に待っているのは「彼らは何に価値を置くか」「彼らが気にすることは何か」という点です。&lt;/p&gt;
-&lt;h3 id=&#34;フレームワーク２ストーリーテリング&#34;&gt;フレームワーク２：ストーリーテリング&lt;/h3&gt;
-&lt;p&gt;次に重要になってくるのは、ストーリーを語ることです。
-前はこうだったが、このソリューションを実施することにより、こうなる
-とか
-こんな問題に対して、このソリューションを提供することにより、こんなインパクトがある、といった具合です。&lt;/p&gt;
-&lt;h3 id=&#34;フレームワーク３数値化&#34;&gt;フレームワーク３：数値化&lt;/h3&gt;
-&lt;p&gt;そして最後は数値です。定量的なデータほど、人を突き動かすものはありません。なぜでしょうか、それは数字があると達成できたかどうかが明白だからです。
-そしてこの数字は、自らコントロールが可能な数字であることが必要です。例えば、年収1000万円を達成する、という目標を立てても、年収はサラリーマンの場合は簡単に制御することができません。&lt;/p&gt;
-&lt;p&gt;とはいえ、数字は重要です。ROIやコスト策g年、時間短縮、、、あらゆる場面で数字が鬼のようにあなたを苦しめる場合もあるでしょう。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;adas開発における具体的事例&#34;&gt;ADAS開発における具体的事例&lt;/h2&gt;
-&lt;p&gt;例えば、Waymo車の方針とTesla社とでは、同じ自動運転車でもセンサアーキテクチャが、彼らの思想やストーリーに基づいて明確に異なります。&lt;/p&gt;
-&lt;p&gt;例えばWaymoであれば、レベル4自動運転に価値を置いているため、Lidarも使用した多重の認識アーキテクチャ構成となっております。&lt;/p&gt;
-&lt;p&gt;一方でTeslaは、大衆向けにコストを抑える戦略をと手織り、カメラ単体で動作を可能としています。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;これがあなたにとって重要な理由&#34;&gt;これがあなたにとって重要な理由&lt;/h2&gt;
-&lt;h3 id=&#34;価値をどれだけ語れるかで昇進できるかどうかが変わる&#34;&gt;価値をどれだけ語れるかで昇進できるかどうかが変わる&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;経営者の仕事は、価値を語ることです。&lt;/li&gt;
-&lt;li&gt;技術マネージャーの仕事も同様で、価値を語ることです
-つまり、マネジメントの仕事は、価値を語って戦略を定めることにあり、部下の勤怠や出張管理ではないのです。
-これを理解できているかどうかで、キャリアにとっては雲泥の差が出ます。
-社内ではポストが限られるのですが、社外もフィールドに入れてみると、転職市場では価値を語れる能力を持つエンジニアとその他大勢のエンジニアとでは、大きな差があることは少し想像するだけで分かると思います。それはすなわちエンジニアを使う側と、エンジニアとして使われる側の違いでもあるのエス。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;そしてこれは、日本ではあまりその重要度が認知されていませんが、グローバル市場では当たり前のように必須なスキルでもあります。
-独立や企業の際には決定的な意味を持つスキルであるのです。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Why Safety During Manual Driving Matters More Than During Autonomous Driving</title>

@@ -7,7 +7,6 @@ tags = ["decision-making", "leadership", "engineering-management", "risk-managem
 slug = "decision-making-under-uncertainty-70-percent-rule"
 categories = ["Engineering Leadership", "Decision Making", "Product Development"]
 description = "A practical framework for making better decisions in uncertain environments. Learn Amazon's 70% rule, One-Way vs Two-Way Door thinking, Pre-mortem Analysis, ..."
-canonical_url = "https://yourblog.com/posts/decision-making-under-uncertainty-70-percent-rule"
 date = "2025-11-01T08:07:30+09:00"
 +++
 
