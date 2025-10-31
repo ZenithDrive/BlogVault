@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/Why Safety During Manual Driving Matters More Than During Autonomous Driving.md",
+                "file": "content/ja/posts/機能ではなく価値を軸に考えるエンジニアリング：何を良しとするかを定める力.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Why Safety During Manual Driving Matters More Than During Autonomous Driving"
+              "title": "機能ではなく価値を軸に考えるエンジニアリング：何を良しとするかを定める力"
             }
           }
         ]
@@ -168,20 +168,26 @@
   },
   "active": "6a4c4afe298724e5",
   "lastOpenFiles": [
-    "content/posts/Building an Automated Bilingual Blog System with Obsidian - Going Global in Two Languages.md",
     "content/ja/posts/なぜ手動運転中の安全性が自動運転中より重要なのか.md",
-    "content/ja/posts/Obsidianから自動で二言語にグローバル配信するブログシステムの構築.md",
-    "temp_git_status.txt",
+    "public/ja/posts/value-oriented-engineering/index.html",
+    "public/ja/posts/value-oriented-engineering",
+    "content/ja/posts/エンジニアが機能ではなく価値を語るべき理由.md",
+    "content/posts/Value-Oriented Engineering The Power to Define What We Consider Good.md",
+    "public/tags/tech-lead/index.xml",
+    "public/tags/product-development/index.xml",
+    "public/tags/engineering/index.xml",
+    "public/tags/engineering-career/page/1/index.html",
+    "public/tags/engineering-career/page/1",
+    "public/tags/engineering-career/page",
+    "public/tags/engineering-career/index.xml",
+    "public/tags/engineering-career/index.html",
+    "content/posts/Building an Automated Bilingual Blog System with Obsidian - Going Global in Two Languages.md",
+    "content/ja/posts/機能ではなく価値を軸に考えるエンジニアリング：何を良しとするかを定める力.md",
     "content/posts/Why Safety During Manual Driving Matters More Than During Autonomous Driving.md",
-    "public/tags/automotive-technology/index.xml",
-    "public/posts/why-l0-more-important-than-l2/index.html",
-    "public/posts/why-l0-more-important-than-l2",
-    "public/tags/level-3/page/1/index.html",
-    "public/tags/level-3/page/1",
-    "public/tags/level-3/page",
-    "public/tags/level-3/index.xml",
-    "public/tags/level-3/index.html",
-    "public/tags/level-3",
+    "content/ja/posts/Obsidianから自動で二言語にグローバル配信するブログシステムの構築.md",
+    "content/posts/Why Safety During Manual Driving is More Important Than During Autonomous Driving.md",
+    "content/ja/posts/なぜ手動運転中の安全性が自動運転中よりも重要なのか.md",
+    "content/ja/drafts/なぜ手動運転中の安全性が自動運転中より重要なのか.md",
     "content/about.md",
     "public/images/profile.jpg",
     "themes/ananke/assets/ananke/socials/suse.svg",
@@ -206,12 +212,6 @@
     "content/ja/posts/Obsidianから半自動で二言語にグローバル配信するブログシステムの構築.md",
     "GISCUS_SETUP.md",
     "content/posts/Building an Automated Pipeline - From EvolutionVault to BlogVault.md",
-    "content/ja/posts/EvolutionVaultからBlogVaultへの自動化システム構築.md",
-    "content/posts/EvolutionVaultからBlogVaultへの自動化システム構築.md",
-    "content/en/posts/Building an Automated Pipeline - From EvolutionVault to BlogVault.md",
-    "content/posts/my-second-post.md",
-    "content/posts/test.md",
-    "content/posts/myThirdPost.md",
-    "content/posts/welcome.md"
+    "content/ja/posts/EvolutionVaultからBlogVaultへの自動化システム構築.md"
   ]
 }

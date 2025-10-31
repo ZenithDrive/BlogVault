@@ -8,7 +8,6 @@ draft = false
 tags = ["Engineering", "Value-Thinking", "Tech-Lead", "Product-Development", "Engineering-Career", "Organization-Building", "ADAS", "Decision-Making"]
 status = "draft"
 category = "Engineering"
-related = ["[[Story_2025-10-31_エンジニアが機能ではなく価値を語るべき理由]]"]
 description = "Have you ever felt that 'technically excellent work doesn't get recognized'? Behind this lies a structural problem: the lack of shared value criteria. This a..."
 +++
 

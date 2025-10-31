@@ -1,5 +1,20 @@
  M .obsidian/workspace.json
- M "content/ja/posts/\343\201\252\343\201\234\346\211\213\345\213\225\351\201\213\350\273\242\344\270\255\343\201\256\345\256\211\345\205\250\346\200\247\343\201\214\350\207\252\345\213\225\351\201\213\350\273\242\344\270\255\343\202\210\343\202\212\351\207\215\350\246\201\343\201\252\343\201\256\343\201\213.md"
- M "content/posts/Why Safety During Manual Driving Matters More Than During Autonomous Driving.md"
+ M GISCUS_SETUP.md
+ M assets/css/custom.css
+ M config.toml
+ D "content/ja/posts/\343\202\250\343\203\263\343\202\270\343\203\213\343\202\242\343\201\214\346\251\237\350\203\275\343\201\247\343\201\257\343\201\252\343\201\217\344\276\241\345\200\244\343\202\222\350\252\236\343\202\213\343\201\271\343\201\215\347\220\206\347\224\261.md"
+ M "content/ja/posts/\346\251\237\350\203\275\343\201\247\343\201\257\343\201\252\343\201\217\344\276\241\345\200\244\343\202\222\350\273\270\343\201\253\350\200\203\343\201\210\343\202\213\343\202\250\343\203\263\343\202\270\343\203\213\343\202\242\343\203\252\343\203\263\343\202\260\357\274\232\344\275\225\343\202\222\350\211\257\343\201\227\343\201\250\343\201\231\343\202\213\343\201\213\343\202\222\345\256\232\343\202\201\343\202\213\345\212\233.md"
+ M "content/posts/Building an Automated Bilingual Blog System with Obsidian - Going Global in Two Languages.md"
+ M "content/posts/Value-Oriented Engineering The Power to Define What We Consider Good.md"
+ M layouts/_default/single.html
+ M layouts/partials/comments.html
+ M layouts/partials/extend_footer.html
+ M layouts/partials/svg.html
+ M public/404.html
+ M public/index.html
+ M public/index.xml
+ M public/posts/index.html
+ M public/posts/index.xml
+ M public/posts/page/1/index.html
  M temp_git_status.txt
  M themes/PaperMod
