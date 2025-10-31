@@ -1,9 +1,9 @@
 +++
 title = "Building an Automated Bilingual Blog System with Obsidian: Going Global in Two Languages"
-date = "2025-10-26T22:03:31+09:00"
-slug = "automated-bilingual-blog-system"
+date = "2025-10-26T22:00:00+09:00"
 draft = false
 tags = ["automation", "blog", "hugo", "cloudflare", "obsidian", "AI", "productivity"]
+slug = "automated-bilingual-blog-system"
 description = "Create an automated bilingual blog using Obsidian, AI translation, and publishing automation. Share your technical content globally for less than $11/year."
 +++
 
@@ -157,6 +157,7 @@ graph TD
 ```bash
 draft.bat
 
+# Or include English translation simultaneously
 draft_translate.bat
 ```
 
